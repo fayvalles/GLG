@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{1A47A45C-5AD1-45A0-B28C-E3D5866FFD3B}" SchemaVersion="123">
+	<States>
+		<WorkUnit Name="Default Work Unit" ID="{1A47A45C-5AD1-45A0-B28C-E3D5866FFD3B}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="Mood" ID="{F9BE7E51-CEFE-4E45-8B84-DEB96A0EEA99}">
+					<ChildrenList>
+						<State Name="Calm" ID="{8A36C839-C3DF-466F-8971-FEC52CA83998}"/>
+						<State Name="Combat" ID="{31B9F4B3-DF01-422D-95B0-202D3CBBCCE5}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

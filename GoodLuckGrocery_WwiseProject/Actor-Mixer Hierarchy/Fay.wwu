@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{205B5925-FA24-4BE2-B59E-24A60FC5F2A9}" SchemaVersion="123">
+	<AudioObjects>
+		<WorkUnit Name="Fay" ID="{205B5925-FA24-4BE2-B59E-24A60FC5F2A9}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Music" ID="{0D717785-01DA-440E-85BC-6B88F1EE79A4}" ShortID="318566932">
+					<ChildrenList>
+						<Sound Name="Calm Music" ID="{0F809E16-D28A-4A01-B51E-60A6CDCA7644}" ShortID="319078746">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{75562C84-0C71-4AF9-B705-0E369579FDD6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1DE4F480-CD82-433A-85DE-E3D2C32AE4ED}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Calm Music" ID="{634DE6A1-8490-40D1-AEB6-3307FB998CE9}">
+									<Language>SFX</Language>
+									<AudioFile>Calm Music.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="110670281"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="Mood" ID="{F9BE7E51-CEFE-4E45-8B84-DEB96A0EEA99}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Combat" ID="{31B9F4B3-DF01-422D-95B0-202D3CBBCCE5}"/>
+										<CustomState Name="" ID="{11BCE417-9DD9-45E8-8F6D-C85856785B21}" ShortID="775068617">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Calm" ID="{8A36C839-C3DF-466F-8971-FEC52CA83998}"/>
+										<CustomState Name="" ID="{933E44DB-1E5F-4CF6-B4C5-E48559781915}" ShortID="362678890"/>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+							<ActiveSourceList>
+								<ActiveSource Name="Calm Music" ID="{634DE6A1-8490-40D1-AEB6-3307FB998CE9}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Battle Music" ID="{3A8727DE-A826-4591-801B-2A7EDA8A1B6C}" ShortID="251496365">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-9</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{75562C84-0C71-4AF9-B705-0E369579FDD6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1DE4F480-CD82-433A-85DE-E3D2C32AE4ED}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Battle Music" ID="{3A9D85EC-8634-4F37-AD74-9FC42FAEA0E9}">
+									<Language>SFX</Language>
+									<AudioFile>Battle Music.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="689034284"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="Mood" ID="{F9BE7E51-CEFE-4E45-8B84-DEB96A0EEA99}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Combat" ID="{31B9F4B3-DF01-422D-95B0-202D3CBBCCE5}"/>
+										<CustomState Name="" ID="{6056ED18-D320-4990-A789-8FB73F3A4C13}" ShortID="929222793"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Calm" ID="{8A36C839-C3DF-466F-8971-FEC52CA83998}"/>
+										<CustomState Name="" ID="{2A7F4781-0031-4BD0-A2EA-002EEF207AA4}" ShortID="185864598">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+							<ActiveSourceList>
+								<ActiveSource Name="Battle Music" ID="{3A9D85EC-8634-4F37-AD74-9FC42FAEA0E9}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

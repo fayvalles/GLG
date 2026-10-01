@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{3BC028F7-219B-4DF7-9A82-A85960C2434F}" SchemaVersion="123">
+	<Events>
+		<WorkUnit Name="Fay" ID="{3BC028F7-219B-4DF7-9A82-A85960C2434F}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Start_Game" ID="{6F1CDDC1-BB09-4960-AAC2-D23AB25C2348}">
+					<ChildrenList>
+						<Action Name="" ID="{EDCCF731-7387-4C7C-BC41-389F861DF891}" ShortID="966369045">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Calm Music" ID="{0F809E16-D28A-4A01-B51E-60A6CDCA7644}" WorkUnitID="{205B5925-FA24-4BE2-B59E-24A60FC5F2A9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{CE2B28AA-0AA6-4367-A4F5-F6C78EE1BB78}" ShortID="88755347">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Battle Music" ID="{3A8727DE-A826-4591-801B-2A7EDA8A1B6C}" WorkUnitID="{205B5925-FA24-4BE2-B59E-24A60FC5F2A9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{0135B8F4-57EC-4ADC-8826-BD95346C73AA}" ShortID="866565615">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Calm" ID="{8A36C839-C3DF-466F-8971-FEC52CA83998}" WorkUnitID="{1A47A45C-5AD1-45A0-B28C-E3D5866FFD3B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
