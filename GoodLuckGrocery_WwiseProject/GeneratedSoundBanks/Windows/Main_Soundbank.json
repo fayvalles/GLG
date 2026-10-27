@@ -1,0 +1,47 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "2228651116",
+    "Type": "User",
+    "GUID": "{47EEF658-C774-4B22-BB9D-EC67492211AD}",
+    "Language": "SFX",
+    "Hash": "{7E62B137-032D-DA35-C996-9AD1F1A84F53}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main_Soundbank",
+    "ShortName": "Main_Soundbank",
+    "Path": "Main_Soundbank.bnk",
+    "Media": [
+     {
+      "Id": "417137306",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Dash.wav",
+      "CachePath": "BA/{BAC4FBBC-770D-065F-6620-3AB982612D44}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2756333705",
+      "Name": "Collect",
+      "ObjectPath": "\\Events\\Fay\\Collect",
+      "GUID": "{10D2F7F9-7902-4460-8250-4A904DDA19B7}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.70331067",
+      "DurationMax": "0.70331067",
+      "MediaRefs": [
+       {
+        "Id": "417137306"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{D923468C-92A0-404C-2B24-1C5543024DD8}"
+ }
+}
