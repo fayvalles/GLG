@@ -1,6 +1,86 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{47C86351-EE05-4977-B13D-1DDB1FA01584}" SchemaVersion="123">
 	<Events>
-		<WorkUnit Name="Anastasija" ID="{47C86351-EE05-4977-B13D-1DDB1FA01584}" PersistMode="Standalone"/>
+		<WorkUnit Name="Anastasija" ID="{47C86351-EE05-4977-B13D-1DDB1FA01584}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Menu" ID="{19515BC2-C8A9-4B56-93CB-C207D9EAC854}">
+					<ChildrenList>
+						<Action Name="" ID="{BDDCE427-0606-4687-A139-F95EB7A418BD}" ShortID="101760794">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Menu" ID="{055FE003-CAC4-44B3-B569-20A00344FDD5}" WorkUnitID="{AA329CB1-429E-4FC5-898D-51E7DD8E100D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Music" ID="{D7C47F89-F621-4714-8710-9B236EA9B110}">
+					<ChildrenList>
+						<Action Name="" ID="{C76B138E-7F10-441E-A6A0-FE6E703DF566}" ShortID="845589008">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Menu" ID="{055FE003-CAC4-44B3-B569-20A00344FDD5}" WorkUnitID="{AA329CB1-429E-4FC5-898D-51E7DD8E100D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{68BD3EDD-D036-484A-9E49-4945271AEFF5}" ShortID="109927393">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GLG Music" ID="{8F0C9C55-3C18-4458-8F02-357249C7C0E0}" WorkUnitID="{E79C1F30-2B1A-4C2A-B0C6-F55F8003BA2A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Credits" ID="{85D21B1C-1B0E-42A8-8119-C683C7EBB54C}">
+					<ChildrenList>
+						<Action Name="" ID="{63B25B8A-F8D4-4B22-A8DF-FAEEC79B1ACB}" ShortID="246345078">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GoodEnding" ID="{FFC1E3DF-519A-413E-8BE4-55F602C7A9D3}" WorkUnitID="{AA329CB1-429E-4FC5-898D-51E7DD8E100D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="BadEnding" ID="{D9CD34AE-D097-43C5-A7C5-EAA4030B2889}">
+					<ChildrenList>
+						<Action Name="" ID="{FD5CDD3E-69FD-4213-BC5E-1D53B3C2F0BB}" ShortID="741918534">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BadEnding" ID="{50BEE16E-60A6-4984-A678-9A2D0DD50074}" WorkUnitID="{AA329CB1-429E-4FC5-898D-51E7DD8E100D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Gameplay" ID="{48CFD985-9B71-43A4-8BDC-D3658E41B740}">
+					<ChildrenList>
+						<Action Name="" ID="{9759F349-B52E-4E66-9584-E68FAB8E1FD8}" ShortID="638890302">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Gameplay" ID="{B9C43B31-A35A-4BAC-A9CF-F00E6DE3DB70}" WorkUnitID="{AA329CB1-429E-4FC5-898D-51E7DD8E100D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>
