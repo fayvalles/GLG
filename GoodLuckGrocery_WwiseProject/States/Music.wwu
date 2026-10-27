@@ -7,7 +7,6 @@
 					<ChildrenList>
 						<State Name="None" ID="{A482E414-3CA3-49C3-B69E-2E1AAF50976F}"/>
 						<State Name="Menu" ID="{055FE003-CAC4-44B3-B569-20A00344FDD5}"/>
-						<State Name="Story" ID="{40133170-3858-4E73-9654-4A17C2E8DD26}"/>
 						<State Name="Gameplay" ID="{B9C43B31-A35A-4BAC-A9CF-F00E6DE3DB70}"/>
 						<State Name="GoodEnding" ID="{FFC1E3DF-519A-413E-8BE4-55F602C7A9D3}"/>
 						<State Name="BadEnding" ID="{50BEE16E-60A6-4984-A678-9A2D0DD50074}"/>

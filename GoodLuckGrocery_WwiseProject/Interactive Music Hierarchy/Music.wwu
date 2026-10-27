@@ -51,11 +51,70 @@
 																	<Local>
 																		<MusicClip Name="Faye_GLG_Music_Gameplay-Stingers_WRONG_v1_1" ID="{9FB76AA3-E0A9-4F2F-85B7-97BDDDD5CA7B}">
 																			<PropertyList>
-																				<Property Name="EndTrimOffset" Type="Real64" Value="2635.77083333333"/>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="2000"/>
 																				<Property Name="FadeInMode" Type="int16" Value="0"/>
-																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutDuration" Type="Real64" Value="362.869198312236"/>
 																			</PropertyList>
 																			<AudioSourceRef Name="Faye_GLG_Music_Gameplay-Stingers_WRONG_v1_1" ID="{3E32C693-EB7C-40AC-8B17-B740C23D2B01}"/>
+																			<PropertyCurveList>
+																				<PropertyCurve PropertyName="Highpass">
+																					<Curve Name="" ID="{C8B2F974-C8C3-425E-8956-3AFFCE128A65}">
+																						<PropertyList>
+																							<Property Name="Flags" Type="int32" Value="1"/>
+																						</PropertyList>
+																						<PointList>
+																							<Point>
+																								<XPos>0</XPos>
+																								<YPos>0</YPos>
+																								<Flags>5</Flags>
+																							</Point>
+																							<Point>
+																								<XPos>2</XPos>
+																								<YPos>0</YPos>
+																								<Flags>37</Flags>
+																							</Point>
+																						</PointList>
+																					</Curve>
+																				</PropertyCurve>
+																				<PropertyCurve PropertyName="Lowpass">
+																					<Curve Name="" ID="{C437492C-00B4-4536-9E86-700542954A1A}">
+																						<PropertyList>
+																							<Property Name="Flags" Type="int32" Value="1"/>
+																						</PropertyList>
+																						<PointList>
+																							<Point>
+																								<XPos>0</XPos>
+																								<YPos>0</YPos>
+																								<Flags>5</Flags>
+																							</Point>
+																							<Point>
+																								<XPos>2</XPos>
+																								<YPos>0</YPos>
+																								<Flags>37</Flags>
+																							</Point>
+																						</PointList>
+																					</Curve>
+																				</PropertyCurve>
+																				<PropertyCurve PropertyName="Volume">
+																					<Curve Name="" ID="{DB4794B2-597F-4BFA-AA4C-AB28C3FDA61C}">
+																						<PropertyList>
+																							<Property Name="Flags" Type="int32" Value="3"/>
+																						</PropertyList>
+																						<PointList>
+																							<Point>
+																								<XPos>0</XPos>
+																								<YPos>0</YPos>
+																								<Flags>5</Flags>
+																							</Point>
+																							<Point>
+																								<XPos>2</XPos>
+																								<YPos>0</YPos>
+																								<Flags>37</Flags>
+																							</Point>
+																						</PointList>
+																					</Curve>
+																				</PropertyCurve>
+																			</PropertyCurveList>
 																		</MusicClip>
 																	</Local>
 																</Reference>
@@ -277,8 +336,9 @@
 												<SourceFadeOut>
 													<MusicFade Name="Source Fade-out" ID="{A3DE46D2-EC84-4F3A-94FB-1609221C5D73}">
 														<PropertyList>
-															<Property Name="FadeOffset" Type="Real64" Value="1"/>
-															<Property Name="FadeTime" Type="Real64" Value="1"/>
+															<Property Name="FadeCurve" Type="int16" Value="1"/>
+															<Property Name="FadeOffset" Type="Real64" Value="0.5"/>
+															<Property Name="FadeTime" Type="Real64" Value="0.5"/>
 															<Property Name="FadeType" Type="int16" Value="1"/>
 														</PropertyList>
 													</MusicFade>
@@ -2944,10 +3004,6 @@
 							<CustomState>
 								<StateRef Name="Gameplay" ID="{B9C43B31-A35A-4BAC-A9CF-F00E6DE3DB70}"/>
 								<CustomState Name="" ID="{3B7E1327-EF8F-47E3-9454-C5C7B821B681}" ShortID="317246167"/>
-							</CustomState>
-							<CustomState>
-								<StateRef Name="Story" ID="{40133170-3858-4E73-9654-4A17C2E8DD26}"/>
-								<CustomState Name="" ID="{67F6D708-226A-4DC5-A43A-3D6FEE560760}" ShortID="196136803"/>
 							</CustomState>
 						</CustomStateList>
 					</StateInfo>

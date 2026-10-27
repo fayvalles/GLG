@@ -71,6 +71,9 @@
 									</ObjectLists>
 								</Bus>
 								<Bus Name="Sting" ID="{EDAF31E2-242F-4913-89EC-9FECE389C7A7}">
+									<PropertyList>
+										<Property Name="RecoveryTime" Type="Real64" Value="0.1"/>
+									</PropertyList>
 									<ObjectLists>
 										<ObjectList Name="Effects">
 											<Reference>
