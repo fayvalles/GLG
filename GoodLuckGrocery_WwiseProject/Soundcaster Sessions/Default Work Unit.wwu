@@ -22,11 +22,15 @@
 							<Position X="1" Y="1"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Gameplay" ID="{48CFD985-9B71-43A4-8BDC-D3658E41B740}" WorkUnitID="{47C86351-EE05-4977-B13D-1DDB1FA01584}"/>
+							<ObjectRef Name="Story" ID="{F012664D-31DB-4F0C-A40C-E69A18780A58}" WorkUnitID="{47C86351-EE05-4977-B13D-1DDB1FA01584}"/>
 							<Position X="2" Y="0"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Credits" ID="{85D21B1C-1B0E-42A8-8119-C683C7EBB54C}" WorkUnitID="{47C86351-EE05-4977-B13D-1DDB1FA01584}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Gameplay" ID="{48CFD985-9B71-43A4-8BDC-D3658E41B740}" WorkUnitID="{47C86351-EE05-4977-B13D-1DDB1FA01584}"/>
 							<Position X="3" Y="0"/>
 						</Module>
 					</ModuleList>
