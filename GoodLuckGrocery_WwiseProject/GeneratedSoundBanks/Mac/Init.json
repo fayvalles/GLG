@@ -10,11 +10,29 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{2A2DCFD3-A394-2D0C-84F9-D6BBD1C4246F}",
+    "Hash": "{54E55023-6B2B-5BBC-6A3C-D11BE0BC2CBB}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
     "Plugins": {
+     "ShareSets": [
+      {
+       "Id": "205458614",
+       "Name": "Sting_Meter",
+       "ObjectPath": "\\Effects\\Default Work Unit\\Sting_Meter",
+       "GUID": "{117185F5-0B12-451D-8FC8-6CBB52116AF5}",
+       "LibName": "Wwise Meter",
+       "LibId": "8454147"
+      },
+      {
+       "Id": "1413777708",
+       "Name": "Music_Meter",
+       "ObjectPath": "\\Effects\\Default Work Unit\\Music_Meter",
+       "GUID": "{E33B047B-7CFC-44DA-8D54-269873D5AB41}",
+       "LibName": "Wwise Meter",
+       "LibId": "8454147"
+      }
+     ],
      "AudioDevices": [
       {
        "Id": "2317455096",
@@ -42,10 +60,36 @@
       "GUID": "{D309A055-D56F-4E69-AFE4-54ABF24DE788}"
      },
      {
+      "Id": "1752864040",
+      "Name": "Sting",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Music Audio Bus\\Sting",
+      "GUID": "{EDAF31E2-242F-4913-89EC-9FECE389C7A7}",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "205458614"
+        }
+       ]
+      }
+     },
+     {
       "Id": "3803692087",
       "Name": "Master Audio Bus",
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus",
       "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
+     },
+     {
+      "Id": "3991942870",
+      "Name": "Music",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Music Audio Bus\\Music",
+      "GUID": "{3DB0E960-E657-4A94-9F32-574A20494514}",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "1413777708"
+        }
+       ]
+      }
      },
      {
       "Id": "4084199202",
@@ -94,10 +138,54 @@
         "GUID": "{8A36C839-C3DF-466F-8971-FEC52CA83998}"
        }
       ]
+     },
+     {
+      "Id": "3826569560",
+      "Name": "Music_State",
+      "ObjectPath": "\\States\\Music\\Music_State",
+      "GUID": "{EAEE4E1C-D653-4A74-8A67-1A4DA41CABDA}",
+      "States": [
+       {
+        "Id": "89505537",
+        "Name": "Gameplay",
+        "ObjectPath": "\\States\\Music\\Music_State\\Gameplay",
+        "GUID": "{B9C43B31-A35A-4BAC-A9CF-F00E6DE3DB70}"
+       },
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Music\\Music_State\\None",
+        "GUID": "{A482E414-3CA3-49C3-B69E-2E1AAF50976F}"
+       },
+       {
+        "Id": "1071673695",
+        "Name": "GoodEnding",
+        "ObjectPath": "\\States\\Music\\Music_State\\GoodEnding",
+        "GUID": "{FFC1E3DF-519A-413E-8BE4-55F602C7A9D3}"
+       },
+       {
+        "Id": "1686739444",
+        "Name": "Story",
+        "ObjectPath": "\\States\\Music\\Music_State\\Story",
+        "GUID": "{F6728A0D-69A8-4A13-9739-A0E19FB80B4D}"
+       },
+       {
+        "Id": "2607556080",
+        "Name": "Menu",
+        "ObjectPath": "\\States\\Music\\Music_State\\Menu",
+        "GUID": "{055FE003-CAC4-44B3-B569-20A00344FDD5}"
+       },
+       {
+        "Id": "2804304819",
+        "Name": "BadEnding",
+        "ObjectPath": "\\States\\Music\\Music_State\\BadEnding",
+        "GUID": "{50BEE16E-60A6-4984-A678-9A2D0DD50074}"
+       }
+      ]
      }
     ]
    }
   ],
-  "FileHash": "{328D383F-D8E7-8EAA-4DF4-4C7524CD3F40}"
+  "FileHash": "{E6F493B5-25AB-AC64-2C54-128721B292C8}"
  }
 }

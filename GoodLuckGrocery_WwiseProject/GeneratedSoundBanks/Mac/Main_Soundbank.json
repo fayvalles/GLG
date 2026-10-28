@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{47EEF658-C774-4B22-BB9D-EC67492211AD}",
     "Language": "SFX",
-    "Hash": "{06C349F6-EF0E-F71B-668C-29CA9DF6493B}",
+    "Hash": "{6362CDC3-7124-E569-5402-531BC9617E6D}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main_Soundbank",
     "ShortName": "Main_Soundbank",
     "Path": "Main_Soundbank.bnk",
@@ -45,6 +45,14 @@
        {
         "Id": "417137306"
        }
+      ],
+      "ActionTrigger": [
+       {
+        "Id": "225501307",
+        "Name": "Correct_Swell",
+        "ObjectPath": "\\Triggers\\Music\\Correct_Swell",
+        "GUID": "{71F2DDD7-8688-4934-9EB2-3342E07064AD}"
+       }
       ]
      },
      {
@@ -61,9 +69,17 @@
        }
       ]
      }
+    ],
+    "Triggers": [
+     {
+      "Id": "225501307",
+      "Name": "Correct_Swell",
+      "ObjectPath": "\\Triggers\\Music\\Correct_Swell",
+      "GUID": "{71F2DDD7-8688-4934-9EB2-3342E07064AD}"
+     }
     ]
    }
   ],
-  "FileHash": "{A59A5248-45D3-6680-05F5-713875E5E822}"
+  "FileHash": "{E7D90DE9-A619-B026-3096-BD90F33D0162}"
  }
 }
