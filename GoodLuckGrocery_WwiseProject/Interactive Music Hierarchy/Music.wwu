@@ -410,7 +410,6 @@
 												<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
 												<Property Name="ExitSourceAt" Type="int16" Value="2"/>
 												<Property Name="SourceContextType" Type="int16" Value="2"/>
-												<Property Name="UseTransitionObject" Type="bool" Value="True"/>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="DestinationContextObject">
@@ -461,7 +460,7 @@
 												</Reference>
 											</ReferenceList>
 											<TransitionInfo>
-												<TransitionObjectRef Name="TransitionFill_GameplayToCredits" ID="{395B7FDA-3844-4CEB-A9B6-EA34B0F7603F}" WorkUnitID="{E79C1F30-2B1A-4C2A-B0C6-F55F8003BA2A}"/>
+												<TransitionObjectRef Name="TransitionFill_GameplayToCredits" ID="{A3549521-7AC1-4B78-93E6-AB9095604F52}" WorkUnitID="{E79C1F30-2B1A-4C2A-B0C6-F55F8003BA2A}"/>
 												<SourceFadeOut>
 													<MusicFade Name="Source Fade-out" ID="{E9B5147E-7C67-4C61-AC77-E0F965C4290D}">
 														<PropertyList>
@@ -487,8 +486,8 @@
 													<MusicFade Name="Transition Fade-out" ID="{87F337EB-1420-49F4-8E4F-9B279BBBDC1A}">
 														<PropertyList>
 															<Property Name="FadeCurve" Type="int16" Value="2"/>
-															<Property Name="FadeOffset" Type="Real64" Value="0.5"/>
-															<Property Name="FadeTime" Type="Real64" Value="1"/>
+															<Property Name="FadeOffset" Type="Real64" Value="1"/>
+															<Property Name="FadeTime" Type="Real64" Value="2"/>
 															<Property Name="FadeType" Type="int16" Value="1"/>
 														</PropertyList>
 													</MusicFade>
@@ -3285,95 +3284,11 @@
 								</ObjectList>
 							</ObjectLists>
 						</MusicSegment>
-						<MusicSegment Name="TransitionFill_GameplayToCredits" ID="{395B7FDA-3844-4CEB-A9B6-EA34B0F7603F}" ShortID="692424402">
-							<PropertyList>
-								<Property Name="EndPosition" Type="Real64" Value="5346.4375"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{75562C84-0C71-4AF9-B705-0E369579FDD6}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1DE4F480-CD82-433A-85DE-E3D2C32AE4ED}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<MusicTrack Name="Faye_GLG_Music_Gameplay-Sinigang_VerseToChorus-Drums_126bpm4-4_L2M_P1" ID="{075E71DC-7EEE-453B-9190-33DBE95B3181}" ShortID="723374795">
-									<ReferenceList>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1DE4F480-CD82-433A-85DE-E3D2C32AE4ED}"/>
-										</Reference>
-										<Reference Name="TransitionRoot">
-											<Custom>
-												<MusicTransition Name="Root" ID="{C06C538D-0B93-473E-AA3F-36B0D07BC3F0}">
-													<PropertyList>
-														<Property Name="IsFolder" Type="bool" Value="True"/>
-													</PropertyList>
-													<TransitionInfo/>
-												</MusicTransition>
-											</Custom>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Faye_GLG_Music_Gameplay-Sinigang_VerseToChorus-Drums_126bpm4-4_L2M_P1" ID="{17DBF0FD-BDA1-4C5B-AFE1-B9BE333B3072}">
-											<Language>SFX</Language>
-											<AudioFile>Faye_GLG_Music_Gameplay-Sinigang_VerseToChorus-Drums_126bpm4-4_L2M_P1.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="1012177257"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ObjectLists>
-										<ObjectList Name="Sequences">
-											<Reference>
-												<Local>
-													<MusicTrackSequence Name="" ID="{021644FD-8431-4702-9F6A-1B7251CFE4BA}">
-														<ObjectLists>
-															<ObjectList Name="Clips">
-																<Reference>
-																	<Local>
-																		<MusicClip Name="Faye_GLG_Music_Gameplay-Sinigang_VerseToChorus-Drums_126bpm4-4_L2M_P1" ID="{FAF3F2A0-92B5-441B-BA06-472DA85B0FA6}">
-																			<PropertyList>
-																				<Property Name="EndTrimOffset" Type="Real64" Value="5346.4375"/>
-																				<Property Name="FadeInMode" Type="int16" Value="0"/>
-																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																			</PropertyList>
-																			<AudioSourceRef Name="Faye_GLG_Music_Gameplay-Sinigang_VerseToChorus-Drums_126bpm4-4_L2M_P1" ID="{17DBF0FD-BDA1-4C5B-AFE1-B9BE333B3072}"/>
-																		</MusicClip>
-																	</Local>
-																</Reference>
-															</ObjectList>
-														</ObjectLists>
-													</MusicTrackSequence>
-												</Local>
-											</Reference>
-										</ObjectList>
-									</ObjectLists>
-								</MusicTrack>
-							</ChildrenList>
-							<ObjectLists>
-								<ObjectList Name="Cues">
-									<Reference>
-										<Local>
-											<MusicCue Name="Entry Cue" ID="{D3AD2DB3-D2A2-4C85-B9F0-9B525BEC39A0}"/>
-										</Local>
-									</Reference>
-									<Reference>
-										<Local>
-											<MusicCue Name="Exit Cue" ID="{0AD3D80A-42A6-49BC-9E57-0C40E9625339}">
-												<PropertyList>
-													<Property Name="CueType" Type="int16" Value="1"/>
-													<Property Name="TimeMs" Type="Real64" Value="2857.14285714286"/>
-												</PropertyList>
-											</MusicCue>
-										</Local>
-									</Reference>
-								</ObjectList>
-							</ObjectLists>
-						</MusicSegment>
 						<MusicSegment Name="TransitinonFill_Swoosh" ID="{BE418F52-DC80-4E4D-BB00-46DA40013ED1}" ShortID="273214304">
 							<PropertyList>
 								<Property Name="EndPosition" Type="Real64" Value="4762.39583333333"/>
+								<Property Name="OverrideClockSettings" Type="bool" Value="True"/>
+								<Property Name="Tempo" Type="Real64" Value="96"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -3454,6 +3369,92 @@
 												<PropertyList>
 													<Property Name="CueType" Type="int16" Value="1"/>
 													<Property Name="TimeMs" Type="Real64" Value="2142.85714285714"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+						<MusicSegment Name="TransitionFill_GameplayToCredits" ID="{A3549521-7AC1-4B78-93E6-AB9095604F52}" ShortID="977291695">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="5366.4375"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{75562C84-0C71-4AF9-B705-0E369579FDD6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1DE4F480-CD82-433A-85DE-E3D2C32AE4ED}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Faye_GLG_Music__TransitionFill-GameplayToCredits_126bpm4-4_L1M_P0" ID="{C4FE3C6B-9E8B-4654-9EBC-E1F856BEEE70}" ShortID="241873759">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1DE4F480-CD82-433A-85DE-E3D2C32AE4ED}"/>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{F8631BB8-D2A4-425B-8FB1-A68DBBCD4F2E}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Faye_GLG_Music__TransitionFill-GameplayToCredits_126bpm4-4_L1M_P0" ID="{135A1E48-C64F-40B8-9D13-E027E78E7446}">
+											<Language>SFX</Language>
+											<AudioFile>Faye_GLG_Music__TransitionFill-GameplayToCredits_126bpm4-4_L1M_P0.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="104376539"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{128D67BD-FA68-4E36-8380-8FCD8B4244D4}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Faye_GLG_Music__TransitionFill-GameplayToCredits_126bpm4-4_L1M_P0" ID="{8BF90501-64B7-40F9-ABDB-0DE17325B824}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="5366.4375"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Faye_GLG_Music__TransitionFill-GameplayToCredits_126bpm4-4_L1M_P0" ID="{135A1E48-C64F-40B8-9D13-E027E78E7446}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{37F6E9E9-B64B-4D6B-8334-253BC663D286}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{1A485A6A-388F-44E4-8555-1E6F8FAFE8F8}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="2023.80952380952"/>
 												</PropertyList>
 											</MusicCue>
 										</Local>
