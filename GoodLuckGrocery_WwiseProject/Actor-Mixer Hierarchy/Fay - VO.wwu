@@ -32,28 +32,121 @@
 						<ActiveSource Name="Dash" ID="{C34B4F0D-A6C1-42ED-96D1-F82980D6928D}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
-				<Sound Name="narr_001" ID="{29B2D026-44CA-4C34-8BFA-280A515612EA}" ShortID="359883485">
+				<ActorMixer Name="VO_Dialogue" ID="{EB579AE6-2E24-4984-AD70-5A41D1C61254}" ShortID="518873246">
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{75562C84-0C71-4AF9-B705-0E369579FDD6}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1DE4F480-CD82-433A-85DE-E3D2C32AE4ED}"/>
+							<ObjectRef Name="Dialogue Audio Bus" ID="{FF91C8DE-193B-4F47-BD67-2389CDE9E25B}" WorkUnitID="{1DE4F480-CD82-433A-85DE-E3D2C32AE4ED}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<AudioFileSource Name="narr_001" ID="{7402DC29-8364-42B7-87CA-2AB88995B1AB}">
-							<Language>SFX</Language>
-							<AudioFile>narr_001.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="389099927"/>
-							</MediaIDList>
-						</AudioFileSource>
+						<Sound Name="narr_001" ID="{29B2D026-44CA-4C34-8BFA-280A515612EA}" ShortID="359883485">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{75562C84-0C71-4AF9-B705-0E369579FDD6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1DE4F480-CD82-433A-85DE-E3D2C32AE4ED}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="narr_001" ID="{7402DC29-8364-42B7-87CA-2AB88995B1AB}">
+									<Language>SFX</Language>
+									<AudioFile>narr_001.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="389099927"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="narr_001" ID="{7402DC29-8364-42B7-87CA-2AB88995B1AB}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="narr_001" ID="{7402DC29-8364-42B7-87CA-2AB88995B1AB}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
+				</ActorMixer>
+				<ActorMixer Name="VO_PA" ID="{9FE05212-C756-4473-97DD-EC8F47377CFB}" ShortID="8942878">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{75562C84-0C71-4AF9-B705-0E369579FDD6}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="PA Audio Bus" ID="{DB99D59F-CC09-4CB1-A688-33C6FC9642C5}" WorkUnitID="{1DE4F480-CD82-433A-85DE-E3D2C32AE4ED}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="PA GUY Line 2_2_20261027_231325" ID="{8055FC3C-EF76-44F6-BE17-8F6528067139}" ShortID="933591331">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{75562C84-0C71-4AF9-B705-0E369579FDD6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1DE4F480-CD82-433A-85DE-E3D2C32AE4ED}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="PA GUY Line 2_2_20261027_231325" ID="{D0EEB909-FD43-4C63-A189-A18B06E65152}">
+									<Language>SFX</Language>
+									<AudioFile>PA GUY Line 2_2_20261027_231325.WAV</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1050418761"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="PA GUY Line 2_2_20261027_231325" ID="{D0EEB909-FD43-4C63-A189-A18B06E65152}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="PA GUY Line 4_ChiliOil" ID="{0FAD71BB-0810-4044-885D-3553516DCD5B}" ShortID="512687555">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{75562C84-0C71-4AF9-B705-0E369579FDD6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1DE4F480-CD82-433A-85DE-E3D2C32AE4ED}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="PA GUY Line 4_ChiliOil" ID="{0888F3DF-B268-4CD7-8CB9-9F3E097D0D1B}">
+									<Language>SFX</Language>
+									<AudioFile>PA GUY Line 4_ChiliOil.WAV</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1018521249"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="PA GUY Line 4_ChiliOil" ID="{0888F3DF-B268-4CD7-8CB9-9F3E097D0D1B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="Effects">
+							<Reference>
+								<Local>
+									<EffectSlot Name="" ID="{A9C1BCE6-209D-451D-AE6B-0BF9E3A6BFC5}" ShortID="11698011">
+										<ReferenceList>
+											<Reference Name="Effect" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+												<ObjectRef Name="PA_Intercom_EQ" ID="{BB06D4AF-E64F-46B1-A306-39C8585A3C20}" WorkUnitID="{1E3F8F35-D7D8-4A51-A2B8-AAFF87AF55D0}"/>
+											</Reference>
+										</ReferenceList>
+									</EffectSlot>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+				</ActorMixer>
+				<ActorMixer Name="VO_Clues" ID="{DAAFF2DB-523A-4315-9B27-F5AB43EA0B53}" ShortID="651226649">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{75562C84-0C71-4AF9-B705-0E369579FDD6}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Dialogue Audio Bus" ID="{FF91C8DE-193B-4F47-BD67-2389CDE9E25B}" WorkUnitID="{1DE4F480-CD82-433A-85DE-E3D2C32AE4ED}"/>
+						</Reference>
+					</ReferenceList>
+				</ActorMixer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

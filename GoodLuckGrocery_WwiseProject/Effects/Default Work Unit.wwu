@@ -5,6 +5,16 @@
 			<ChildrenList>
 				<Effect Name="Music_Meter" ID="{E33B047B-7CFC-44DA-8D54-269873D5AB41}" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3"/>
 				<Effect Name="Sting_Meter" ID="{117185F5-0B12-451D-8FC8-6CBB52116AF5}" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3"/>
+				<Effect Name="PA_Intercom_EQ" ID="{BB06D4AF-E64F-46B1-A306-39C8585A3C20}" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+					<PropertyList>
+						<Property Name="FilterTypeBand1" Type="int32" Value="1"/>
+						<Property Name="FilterTypeBand3" Type="int32" Value="0"/>
+						<Property Name="FrequencyBand1" Type="Real32" Value="400"/>
+						<Property Name="FrequencyBand2" Type="Real32" Value="1800"/>
+						<Property Name="FrequencyBand3" Type="Real32" Value="3500"/>
+						<Property Name="GainBand2" Type="Real32" Value="4"/>
+					</PropertyList>
+				</Effect>
 			</ChildrenList>
 		</WorkUnit>
 	</Effects>

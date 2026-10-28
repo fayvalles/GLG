@@ -38,6 +38,25 @@
 					<CurrentStateList ShowAll="true"/>
 					<CurrentSwitchList ShowAll="true"/>
 				</SoundcasterSession>
+				<SoundcasterSession Name="New Soundcaster Session" ID="{F573EFF4-A995-4148-95AA-64C4FCE11FFD}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="narr_001" ID="{29B2D026-44CA-4C34-8BFA-280A515612EA}" WorkUnitID="{205B5925-FA24-4BE2-B59E-24A60FC5F2A9}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="PA GUY Line 2_2_20261027_231325" ID="{8055FC3C-EF76-44F6-BE17-8F6528067139}" WorkUnitID="{205B5925-FA24-4BE2-B59E-24A60FC5F2A9}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="PA GUY Line 4_ChiliOil" ID="{0FAD71BB-0810-4044-885D-3553516DCD5B}" WorkUnitID="{205B5925-FA24-4BE2-B59E-24A60FC5F2A9}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundcasterSessions>

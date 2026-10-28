@@ -142,6 +142,32 @@
 								</ObjectList>
 							</ObjectLists>
 						</Bus>
+						<Bus Name="Dialogue Audio Bus" ID="{FF91C8DE-193B-4F47-BD67-2389CDE9E25B}">
+							<PropertyList>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>45</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>35</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<DuckingList>
+								<DuckItem>
+									<BusRef Name="PA Audio Bus" ID="{DB99D59F-CC09-4CB1-A688-33C6FC9642C5}"/>
+									<DuckingParam>
+										<Volume>-12</Volume>
+										<FadeInTime>1</FadeInTime>
+										<FadeOutTime>0.300000011920929</FadeOutTime>
+										<FadeCurve>FadeLinear</FadeCurve>
+									</DuckingParam>
+								</DuckItem>
+							</DuckingList>
+						</Bus>
+						<Bus Name="PA Audio Bus" ID="{DB99D59F-CC09-4CB1-A688-33C6FC9642C5}"/>
 					</ChildrenList>
 				</Bus>
 			</ChildrenList>
