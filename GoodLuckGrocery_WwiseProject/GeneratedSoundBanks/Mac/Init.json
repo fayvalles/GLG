@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{54E55023-6B2B-5BBC-6A3C-D11BE0BC2CBB}",
+    "Hash": "{9E866D81-5F96-FF5E-A250-4322D66C5A9B}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -71,6 +71,18 @@
         }
        ]
       }
+     },
+     {
+      "Id": "2930807276",
+      "Name": "PA Audio Bus",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\PA Audio Bus",
+      "GUID": "{DB99D59F-CC09-4CB1-A688-33C6FC9642C5}"
+     },
+     {
+      "Id": "3460846287",
+      "Name": "Dialogue Audio Bus",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Dialogue Audio Bus",
+      "GUID": "{FF91C8DE-193B-4F47-BD67-2389CDE9E25B}"
      },
      {
       "Id": "3803692087",
@@ -186,6 +198,6 @@
     ]
    }
   ],
-  "FileHash": "{E6F493B5-25AB-AC64-2C54-128721B292C8}"
+  "FileHash": "{53AE4233-2690-CE55-472E-8378FF6EFC71}"
  }
 }
