@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{670B3277-DD3E-4CDE-972F-5E5B49956FF3}" SchemaVersion="123">
+	<Triggers>
+		<WorkUnit Name="Music" ID="{670B3277-DD3E-4CDE-972F-5E5B49956FF3}" PersistMode="Standalone">
+			<ChildrenList>
+				<Trigger Name="Correct_Swell" ID="{71F2DDD7-8688-4934-9EB2-3342E07064AD}"/>
+				<Trigger Name="Wrong_Beat" ID="{2843F939-FBBA-4269-862F-1EC6615F1336}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Triggers>
+</WwiseDocument>

@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{1E3F8F35-D7D8-4A51-A2B8-AAFF87AF55D0}" SchemaVersion="123">
 	<Effects>
-		<WorkUnit Name="Default Work Unit" ID="{1E3F8F35-D7D8-4A51-A2B8-AAFF87AF55D0}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{1E3F8F35-D7D8-4A51-A2B8-AAFF87AF55D0}" PersistMode="Standalone">
+			<ChildrenList>
+				<Effect Name="Music_Meter" ID="{E33B047B-7CFC-44DA-8D54-269873D5AB41}" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3"/>
+				<Effect Name="Sting_Meter" ID="{117185F5-0B12-451D-8FC8-6CBB52116AF5}" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3"/>
+			</ChildrenList>
+		</WorkUnit>
 	</Effects>
 </WwiseDocument>
