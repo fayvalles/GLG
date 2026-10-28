@@ -1,6 +1,8 @@
 Event	ID	Name			Wwise Object Path	Notes
+	579163286	narr_001			\Fay\narr_001	
 	2756333705	Collect			\Fay\Collect	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	389099927	narr_001	C:\Users\ilani\Game Projects\GLG\GoodLuckGrocery_WwiseProject\.cache\45\{4535A041-B1AC-FE5A-9270-3CC728229A9C}.wem		\Actor-Mixer Hierarchy\Fay - VO\narr_001		2742036
 	417137306	CollectSound	C:\Users\ilani\Game Projects\GLG\GoodLuckGrocery_WwiseProject\.cache\BA\{BAC4FBBC-770D-065F-6620-3AB982612D44}.wem		\Actor-Mixer Hierarchy\Fay - VO\CollectSound		124160
 

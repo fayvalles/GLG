@@ -10,11 +10,19 @@
     "Type": "User",
     "GUID": "{47EEF658-C774-4B22-BB9D-EC67492211AD}",
     "Language": "SFX",
-    "Hash": "{7E62B137-032D-DA35-C996-9AD1F1A84F53}",
+    "Hash": "{06C349F6-EF0E-F71B-668C-29CA9DF6493B}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main_Soundbank",
     "ShortName": "Main_Soundbank",
     "Path": "Main_Soundbank.bnk",
     "Media": [
+     {
+      "Id": "389099927",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "narr_001.wav",
+      "CachePath": "45/{4535A041-B1AC-FE5A-9270-3CC728229A9C}.wem"
+     },
      {
       "Id": "417137306",
       "Language": "SFX",
@@ -38,10 +46,24 @@
         "Id": "417137306"
        }
       ]
+     },
+     {
+      "Id": "579163286",
+      "Name": "narr_001",
+      "ObjectPath": "\\Events\\Fay\\narr_001",
+      "GUID": "{16618102-06D4-48D7-9A72-662AE6007E35}",
+      "DurationType": "OneShot",
+      "DurationMin": "14.280937",
+      "DurationMax": "14.280937",
+      "MediaRefs": [
+       {
+        "Id": "389099927"
+       }
+      ]
      }
     ]
    }
   ],
-  "FileHash": "{D923468C-92A0-404C-2B24-1C5543024DD8}"
+  "FileHash": "{34861548-DE67-155F-DA48-A76850CA2B71}"
  }
 }

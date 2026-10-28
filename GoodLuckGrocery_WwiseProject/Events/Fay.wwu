@@ -14,6 +14,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="narr_001" ID="{16618102-06D4-48D7-9A72-662AE6007E35}">
+					<ChildrenList>
+						<Action Name="" ID="{CC52E4C9-A59E-437A-AA28-45ED0C154089}" ShortID="1016202484">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="narr_001" ID="{29B2D026-44CA-4C34-8BFA-280A515612EA}" WorkUnitID="{205B5925-FA24-4BE2-B59E-24A60FC5F2A9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

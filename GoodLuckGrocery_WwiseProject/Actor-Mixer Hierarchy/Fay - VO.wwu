@@ -32,6 +32,28 @@
 						<ActiveSource Name="Dash" ID="{C34B4F0D-A6C1-42ED-96D1-F82980D6928D}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<Sound Name="narr_001" ID="{29B2D026-44CA-4C34-8BFA-280A515612EA}" ShortID="359883485">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{75562C84-0C71-4AF9-B705-0E369579FDD6}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1DE4F480-CD82-433A-85DE-E3D2C32AE4ED}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="narr_001" ID="{7402DC29-8364-42B7-87CA-2AB88995B1AB}">
+							<Language>SFX</Language>
+							<AudioFile>narr_001.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="389099927"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="narr_001" ID="{7402DC29-8364-42B7-87CA-2AB88995B1AB}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
