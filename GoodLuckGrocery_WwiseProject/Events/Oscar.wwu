@@ -1,6 +1,185 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{4E01C9A8-4B1F-4C2C-883E-5D3FD4499A1C}" SchemaVersion="123">
 	<Events>
-		<WorkUnit Name="Oscar" ID="{4E01C9A8-4B1F-4C2C-883E-5D3FD4499A1C}" PersistMode="Standalone"/>
+		<WorkUnit Name="Oscar" ID="{4E01C9A8-4B1F-4C2C-883E-5D3FD4499A1C}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Footstep" ID="{57B26BFD-C717-470F-B013-560A891FE2AC}">
+					<ChildrenList>
+						<Action Name="" ID="{50C8FC1A-7A4D-4607-9F81-DB80C86D6A81}" ShortID="634828152">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Footsteps" ID="{B454DC1B-5616-456E-98E3-71833E6DD59B}" WorkUnitID="{3E16ECA5-7B1C-41BE-B067-3DBCC858B565}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Ambience" ID="{F1035BD6-636B-42E5-84B4-63B110623FD7}">
+					<ChildrenList>
+						<Action Name="" ID="{180E3B43-B78D-4367-BBC3-2C1A1728C01D}" ShortID="910199965">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ambience Loud" ID="{A5F1D6E2-5DB9-49DD-82FD-97418AA4262C}" WorkUnitID="{3E16ECA5-7B1C-41BE-B067-3DBCC858B565}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Dooropen" ID="{F1CAD3D8-6F66-4177-AB3B-A67803603D4A}">
+					<ChildrenList>
+						<Action Name="" ID="{3419477A-1BBB-4D8B-B218-D5F5D8E1EE07}" ShortID="307249496">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Door open" ID="{7621BEDD-84EA-4E72-A646-88CEC8CB1900}" WorkUnitID="{3E16ECA5-7B1C-41BE-B067-3DBCC858B565}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PhoneRing" ID="{2D133812-F7E6-44CF-853A-B20C22F90FDF}">
+					<ChildrenList>
+						<Action Name="" ID="{CD033721-88B5-4272-9CCD-D1CCF8F4357B}" ShortID="132877656">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="PhoneRing" ID="{EE8D2E5E-1ACD-49F7-BDFE-0C404C528E1D}" WorkUnitID="{3E16ECA5-7B1C-41BE-B067-3DBCC858B565}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Bag" ID="{26E13B0C-0B66-4380-B3DC-895E2DBF55BB}">
+					<ChildrenList>
+						<Action Name="" ID="{7B5BB16C-0655-4250-8662-244410FC45A1}" ShortID="715154822">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Bag rustle" ID="{AA6CDD04-2818-42CA-8C2B-C8FA65EFB854}" WorkUnitID="{3E16ECA5-7B1C-41BE-B067-3DBCC858B565}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="BottleClink" ID="{76D34C46-AB86-4CA6-A60E-B53D8B23DD05}">
+					<ChildrenList>
+						<Action Name="" ID="{BAD8F8AA-540B-4818-9030-E210DE3AC234}" ShortID="895748911">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Bottle clink" ID="{345A5BD5-13C5-4869-BF21-E4E925EC6563}" WorkUnitID="{3E16ECA5-7B1C-41BE-B067-3DBCC858B565}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="TrolleyClangs" ID="{83314A29-9F74-448A-910E-8948CE2323D2}">
+					<ChildrenList>
+						<Action Name="" ID="{8A0E6102-7D26-47EC-A790-1F4F3D761A46}" ShortID="370734096">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MetalClangTrolley" ID="{CA4FD1CB-7C36-4C8B-958B-9FD00DB97D44}" WorkUnitID="{3E16ECA5-7B1C-41BE-B067-3DBCC858B565}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="NoodleCrack" ID="{205BC4DB-76F3-477B-AFB4-9BA970613FD4}">
+					<ChildrenList>
+						<Action Name="" ID="{6CD93535-A789-4E28-8D84-50F1F34FEB4A}" ShortID="722734936">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Noodle crack" ID="{64B36A76-64D6-4072-A9F2-854DEDA2F1A4}" WorkUnitID="{3E16ECA5-7B1C-41BE-B067-3DBCC858B565}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PhoneDial" ID="{9C0A398B-2738-4F14-B505-D12014538D5A}">
+					<ChildrenList>
+						<Action Name="" ID="{61F6E50C-11E8-40A7-9F18-9364BEAA2B30}" ShortID="198002788">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Phone dial" ID="{77F477C9-D631-4677-9826-0209B0F60B73}" WorkUnitID="{3E16ECA5-7B1C-41BE-B067-3DBCC858B565}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PhonePickUp" ID="{D63A4C5D-2728-42C9-A6DF-487999822B02}">
+					<ChildrenList>
+						<Action Name="" ID="{62014234-C596-402E-ACF7-0475D8762589}" ShortID="59921184">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="phone pick up" ID="{25DCEB74-F052-491A-BF32-ADE5E1874BB4}" WorkUnitID="{3E16ECA5-7B1C-41BE-B067-3DBCC858B565}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PickUpObjects" ID="{E68DC055-F61B-4338-A73C-D5066EDA00D7}">
+					<ChildrenList>
+						<Action Name="" ID="{77A19EF9-FCD1-4A3B-8CAA-7150F73766AF}" ShortID="844749528">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="PickUpObject" ID="{3ADA83DD-8270-4659-9D91-5B1E17E56234}" WorkUnitID="{3E16ECA5-7B1C-41BE-B067-3DBCC858B565}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="SackDrop" ID="{DF92E8E7-AED3-45EF-A51E-2AD9CC900904}">
+					<ChildrenList>
+						<Action Name="" ID="{B8041957-E0D3-428B-8A0E-D0A71B4D7FB7}" ShortID="288786291">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Sack Drop" ID="{A9F4AFC1-9337-42E6-9678-B4227C493413}" WorkUnitID="{3E16ECA5-7B1C-41BE-B067-3DBCC858B565}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="UIClick" ID="{67331D54-3BA0-4A7A-AEC5-64CD61447E21}">
+					<ChildrenList>
+						<Action Name="" ID="{076439ED-B352-4778-806D-4ADDD9026C6E}" ShortID="615479607">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI CLICK" ID="{7453B61D-CDC8-4F04-9AD0-4EC1336FD4EF}" WorkUnitID="{3E16ECA5-7B1C-41BE-B067-3DBCC858B565}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="EnterGame" ID="{E0DAC8F2-5EBB-4882-AD50-CAFA47E7E669}">
+					<ChildrenList>
+						<Action Name="" ID="{C6E6B109-C768-46D3-A027-E7FB85CCFEE2}" ShortID="809060288">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Enter game" ID="{3CD9591D-1F05-47AB-9D32-86F6ACC5F687}" WorkUnitID="{3E16ECA5-7B1C-41BE-B067-3DBCC858B565}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Jump" ID="{A443325E-E3B6-49C2-9159-7D0537E886E4}">
+					<ChildrenList>
+						<Action Name="" ID="{8FE424E3-2481-47F0-A459-799DB69EBA27}" ShortID="956616115">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Jump" ID="{58245FB6-E212-4FC5-87F7-8699795717A4}" WorkUnitID="{3E16ECA5-7B1C-41BE-B067-3DBCC858B565}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="LaserHit" ID="{DE1D363D-9A50-4338-A431-29220F96A757}">
+					<ChildrenList>
+						<Action Name="" ID="{62535848-A4B6-488F-8E4C-8784F7A7BA81}" ShortID="855700056">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Laser Hit" ID="{92A1A9FD-BB98-401B-9BCB-5198F1CFA8BA}" WorkUnitID="{3E16ECA5-7B1C-41BE-B067-3DBCC858B565}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>
