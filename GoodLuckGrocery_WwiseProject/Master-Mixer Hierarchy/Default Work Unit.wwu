@@ -54,6 +54,148 @@
 						<Bus Name="Music Audio Bus" ID="{D309A055-D56F-4E69-AFE4-54ABF24DE788}">
 							<ChildrenList>
 								<Bus Name="Music" ID="{3DB0E960-E657-4A94-9F32-574A20494514}">
+									<ChildrenList>
+										<Bus Name="BadEnding-Nostalgie" ID="{6E927DFB-1F51-4201-AA51-2DD7CC18B6C7}">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-5</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ObjectLists>
+												<ObjectList Name="Effects">
+													<Reference>
+														<Local>
+															<EffectSlot Name="" ID="{4CA50592-6ED2-44A0-B572-E023A1E521B8}" ShortID="498187965">
+																<ReferenceList>
+																	<Reference Name="Effect">
+																		<Custom>
+																			<Effect Name="Gain (Custom)" ID="{CAA74A52-5CB3-4B76-926B-E814CA200E35}" ShortID="620489933" PluginName="Wwise Gain" CompanyID="0" PluginID="139" PluginType="3"/>
+																		</Custom>
+																	</Reference>
+																</ReferenceList>
+															</EffectSlot>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</Bus>
+										<Bus Name="Gameplay-GLG" ID="{9CD5418F-FAA4-4198-8D25-F82AC5DE51B2}">
+											<ObjectLists>
+												<ObjectList Name="Effects">
+													<Reference>
+														<Local>
+															<EffectSlot Name="" ID="{6854E1ED-62A5-4876-B3C3-2E5006109CED}" ShortID="235739181">
+																<ReferenceList>
+																	<Reference Name="Effect">
+																		<Custom>
+																			<Effect Name="Gain (Custom)" ID="{297D4A65-D18B-4D66-A14D-F3E911839F6E}" ShortID="444739723" PluginName="Wwise Gain" CompanyID="0" PluginID="139" PluginType="3"/>
+																		</Custom>
+																	</Reference>
+																</ReferenceList>
+															</EffectSlot>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</Bus>
+										<Bus Name="Credits-Sinigang" ID="{4753ADF1-8586-4E9B-976B-F42BC740C2A8}">
+											<ObjectLists>
+												<ObjectList Name="Effects">
+													<Reference>
+														<Local>
+															<EffectSlot Name="" ID="{043F050D-6AB1-4C49-9DCC-5E32F98F04CD}" ShortID="612311285">
+																<ReferenceList>
+																	<Reference Name="Effect">
+																		<Custom>
+																			<Effect Name="Gain (Custom)" ID="{CB2CDCBB-B08B-44B7-8F01-723D4D87FF3D}" ShortID="74739985" PluginName="Wwise Gain" CompanyID="0" PluginID="139" PluginType="3"/>
+																		</Custom>
+																	</Reference>
+																</ReferenceList>
+															</EffectSlot>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</Bus>
+										<Bus Name="Menu-Sinigang" ID="{2DF18C16-BFDB-4A18-B8A8-A6FD3ECB453F}">
+											<ObjectLists>
+												<ObjectList Name="Effects">
+													<Reference>
+														<Local>
+															<EffectSlot Name="" ID="{8E3D46CA-40AA-4566-A922-5C83FF681FB6}" ShortID="555983816">
+																<ReferenceList>
+																	<Reference Name="Effect">
+																		<Custom>
+																			<Effect Name="Gain (Custom)" ID="{204933BB-58CB-4C6F-B326-AC913E5D7737}" ShortID="917226217" PluginName="Wwise Gain" CompanyID="0" PluginID="139" PluginType="3"/>
+																		</Custom>
+																	</Reference>
+																</ReferenceList>
+															</EffectSlot>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</Bus>
+										<Bus Name="Intro-Story" ID="{FA44A362-CCDB-44FD-96C6-F0F46BDFB3AF}">
+											<ObjectLists>
+												<ObjectList Name="Effects">
+													<Reference>
+														<Local>
+															<EffectSlot Name="" ID="{DF12377B-B3D9-4DA2-946E-F4BDD9D85CE7}" ShortID="693091006">
+																<ReferenceList>
+																	<Reference Name="Effect">
+																		<Custom>
+																			<Effect Name="Gain (Custom)" ID="{DC6D83F6-0DD0-4218-8995-3AA2FFA8324C}" ShortID="296758930" PluginName="Wwise Gain" CompanyID="0" PluginID="139" PluginType="3"/>
+																		</Custom>
+																	</Reference>
+																</ReferenceList>
+															</EffectSlot>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</Bus>
+										<Bus Name="TransitionFills" ID="{0DFD9A1C-1241-48EB-B9A3-F813D2ADA13F}">
+											<ObjectLists>
+												<ObjectList Name="Effects">
+													<Reference>
+														<Local>
+															<EffectSlot Name="" ID="{2F85A37B-4398-4FED-B7D0-30595A648B90}" ShortID="769057783">
+																<ReferenceList>
+																	<Reference Name="Effect">
+																		<Custom>
+																			<Effect Name="Gain (Custom)" ID="{B6B9D23D-17E9-4EEB-A077-9B6A4554A1C3}" ShortID="1038499363" PluginName="Wwise Gain" CompanyID="0" PluginID="139" PluginType="3"/>
+																		</Custom>
+																	</Reference>
+																</ReferenceList>
+															</EffectSlot>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</Bus>
+										<Bus Name="Gameplay-Sinigang" ID="{6D05C672-AA21-4C40-8FC5-B5E9F9670BE1}">
+											<ObjectLists>
+												<ObjectList Name="Effects">
+													<Reference>
+														<Local>
+															<EffectSlot Name="" ID="{9B329293-4A53-462D-98FC-9F36A0338F3D}" ShortID="1028410043">
+																<ReferenceList>
+																	<Reference Name="Effect">
+																		<Custom>
+																			<Effect Name="Gain (Custom)" ID="{953B5DA7-9501-41EF-9382-988ACD5DDB1E}" ShortID="813753039" PluginName="Wwise Gain" CompanyID="0" PluginID="139" PluginType="3"/>
+																		</Custom>
+																	</Reference>
+																</ReferenceList>
+															</EffectSlot>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</Bus>
+									</ChildrenList>
 									<ObjectLists>
 										<ObjectList Name="Effects">
 											<Reference>
@@ -96,7 +238,7 @@
 												<Volume>-6</Volume>
 												<FadeInTime>0.100000001490116</FadeInTime>
 												<FadeOutTime>0.100000001490116</FadeOutTime>
-												<FadeCurve>FadeLinear</FadeCurve>
+												<FadeCurve>FadeExp1</FadeCurve>
 											</DuckingParam>
 										</DuckItem>
 									</DuckingList>
