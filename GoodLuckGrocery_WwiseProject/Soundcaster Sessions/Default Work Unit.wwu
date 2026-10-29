@@ -18,16 +18,78 @@
 							<Position X="1" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Collect" ID="{10D2F7F9-7902-4460-8250-4A904DDA19B7}" WorkUnitID="{3BC028F7-219B-4DF7-9A82-A85960C2434F}"/>
+							<ObjectRef Name="Credits" ID="{85D21B1C-1B0E-42A8-8119-C683C7EBB54C}" WorkUnitID="{47C86351-EE05-4977-B13D-1DDB1FA01584}"/>
 							<Position X="1" Y="1"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Gameplay" ID="{48CFD985-9B71-43A4-8BDC-D3658E41B740}" WorkUnitID="{47C86351-EE05-4977-B13D-1DDB1FA01584}"/>
+							<ObjectRef Name="Story" ID="{F012664D-31DB-4F0C-A40C-E69A18780A58}" WorkUnitID="{47C86351-EE05-4977-B13D-1DDB1FA01584}"/>
 							<Position X="2" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Credits" ID="{85D21B1C-1B0E-42A8-8119-C683C7EBB54C}" WorkUnitID="{47C86351-EE05-4977-B13D-1DDB1FA01584}"/>
+							<ObjectRef Name="Collect" ID="{10D2F7F9-7902-4460-8250-4A904DDA19B7}" WorkUnitID="{3BC028F7-219B-4DF7-9A82-A85960C2434F}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Gameplay" ID="{48CFD985-9B71-43A4-8BDC-D3658E41B740}" WorkUnitID="{47C86351-EE05-4977-B13D-1DDB1FA01584}"/>
 							<Position X="3" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+				<SoundcasterSession Name="New Soundcaster Session" ID="{F573EFF4-A995-4148-95AA-64C4FCE11FFD}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="narr_001" ID="{29B2D026-44CA-4C34-8BFA-280A515612EA}" WorkUnitID="{205B5925-FA24-4BE2-B59E-24A60FC5F2A9}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="PA GUY Line 2_2_20261027_231325" ID="{8055FC3C-EF76-44F6-BE17-8F6528067139}" WorkUnitID="{205B5925-FA24-4BE2-B59E-24A60FC5F2A9}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="PA GUY Line 4_ChiliOil" ID="{0FAD71BB-0810-4044-885D-3553516DCD5B}" WorkUnitID="{205B5925-FA24-4BE2-B59E-24A60FC5F2A9}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+				<SoundcasterSession Name="Music Playlist Containers" ID="{4E10CF6B-985B-4BEA-841F-5264F3B7EEC1}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="BadEnding-Nostalgie" ID="{6E927DFB-1F51-4201-AA51-2DD7CC18B6C7}" WorkUnitID="{1DE4F480-CD82-433A-85DE-E3D2C32AE4ED}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Intro-Story" ID="{FA44A362-CCDB-44FD-96C6-F0F46BDFB3AF}" WorkUnitID="{1DE4F480-CD82-433A-85DE-E3D2C32AE4ED}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Credits-Sinigang" ID="{4753ADF1-8586-4E9B-976B-F42BC740C2A8}" WorkUnitID="{1DE4F480-CD82-433A-85DE-E3D2C32AE4ED}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Menu-Sinigang" ID="{2DF18C16-BFDB-4A18-B8A8-A6FD3ECB453F}" WorkUnitID="{1DE4F480-CD82-433A-85DE-E3D2C32AE4ED}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Gameplay-GLG" ID="{9CD5418F-FAA4-4198-8D25-F82AC5DE51B2}" WorkUnitID="{1DE4F480-CD82-433A-85DE-E3D2C32AE4ED}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="TransitionFills" ID="{0DFD9A1C-1241-48EB-B9A3-F813D2ADA13F}" WorkUnitID="{1DE4F480-CD82-433A-85DE-E3D2C32AE4ED}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Gameplay-Sinigang" ID="{6D05C672-AA21-4C40-8FC5-B5E9F9670BE1}" WorkUnitID="{1DE4F480-CD82-433A-85DE-E3D2C32AE4ED}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Music" ID="{3DB0E960-E657-4A94-9F32-574A20494514}" WorkUnitID="{1DE4F480-CD82-433A-85DE-E3D2C32AE4ED}"/>
+							<Position X="3" Y="1"/>
 						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true"/>

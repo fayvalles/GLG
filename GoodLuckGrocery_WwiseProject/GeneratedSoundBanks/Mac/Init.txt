@@ -1,10 +1,17 @@
 State Group	ID	Name			Wwise Object Path	Notes
 	3128647864	Mood			\Default Work Unit\Mood	
+	3826569560	Music_State			\Music\Music_State	
 
 State	ID	Name	State Group			Notes
 	748895195	None	Mood			
 	2764240573	Combat	Mood			
 	3753286132	Calm	Mood			
+	89505537	Gameplay	Music_State			
+	748895195	None	Music_State			
+	1071673695	GoodEnding	Music_State			
+	1686739444	Story	Music_State			
+	2607556080	Menu	Music_State			
+	2804304819	BadEnding	Music_State			
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	1564184899	SFX_Volume			\Default Work Unit\SFX_Volume	
@@ -12,8 +19,16 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	493417818	Music Audio Bus			\Default Work Unit\Master Audio Bus\Music Audio Bus	
+	1752864040	Sting			\Default Work Unit\Master Audio Bus\Music Audio Bus\Sting	
+	2930807276	PA Audio Bus			\Default Work Unit\Master Audio Bus\PA Audio Bus	
+	3460846287	Dialogue Audio Bus			\Default Work Unit\Master Audio Bus\Dialogue Audio Bus	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+	3991942870	Music			\Default Work Unit\Master Audio Bus\Music Audio Bus\Music	
 	4084199202	SFX Audio Bus			\Default Work Unit\Master Audio Bus\SFX Audio Bus	
+
+Effect plug-ins	ID	Name	Type				Notes
+	205458614	Sting_Meter	Wwise Meter			
+	1413777708	Music_Meter	Wwise Meter			
 
 Audio Devices	ID	Name	Type				Notes
 	2317455096	No_Output	No Output			

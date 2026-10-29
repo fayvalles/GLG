@@ -10,6 +10,7 @@
 						<State Name="Gameplay" ID="{B9C43B31-A35A-4BAC-A9CF-F00E6DE3DB70}"/>
 						<State Name="GoodEnding" ID="{FFC1E3DF-519A-413E-8BE4-55F602C7A9D3}"/>
 						<State Name="BadEnding" ID="{50BEE16E-60A6-4984-A678-9A2D0DD50074}"/>
+						<State Name="Story" ID="{F6728A0D-69A8-4A13-9739-A0E19FB80B4D}"/>
 					</ChildrenList>
 				</StateGroup>
 			</ChildrenList>

@@ -80,6 +80,20 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Story" ID="{F012664D-31DB-4F0C-A40C-E69A18780A58}">
+					<ChildrenList>
+						<Action Name="" ID="{A2ED37C6-7A98-47CF-8019-3DE01F1482DB}" ShortID="270054600">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Story" ID="{F6728A0D-69A8-4A13-9739-A0E19FB80B4D}" WorkUnitID="{AA329CB1-429E-4FC5-898D-51E7DD8E100D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

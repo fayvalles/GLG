@@ -10,11 +10,19 @@
     "Type": "User",
     "GUID": "{47EEF658-C774-4B22-BB9D-EC67492211AD}",
     "Language": "SFX",
-    "Hash": "{7E62B137-032D-DA35-C996-9AD1F1A84F53}",
+    "Hash": "{517436DC-DD7E-5D44-1C22-EA53585DC5B7}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main_Soundbank",
     "ShortName": "Main_Soundbank",
     "Path": "Main_Soundbank.bnk",
     "Media": [
+     {
+      "Id": "389099927",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "narr_001.wav",
+      "CachePath": "45/{4535A041-B1AC-FE5A-9270-3CC728229A9C}.wem"
+     },
      {
       "Id": "417137306",
       "Language": "SFX",
@@ -37,11 +45,41 @@
        {
         "Id": "417137306"
        }
+      ],
+      "ActionTrigger": [
+       {
+        "Id": "225501307",
+        "Name": "Correct_Swell",
+        "ObjectPath": "\\Triggers\\Music\\Correct_Swell",
+        "GUID": "{71F2DDD7-8688-4934-9EB2-3342E07064AD}"
+       }
       ]
+     },
+     {
+      "Id": "579163286",
+      "Name": "narr_001",
+      "ObjectPath": "\\Events\\Fay\\narr_001",
+      "GUID": "{16618102-06D4-48D7-9A72-662AE6007E35}",
+      "DurationType": "OneShot",
+      "DurationMin": "14.280937",
+      "DurationMax": "14.280937",
+      "MediaRefs": [
+       {
+        "Id": "389099927"
+       }
+      ]
+     }
+    ],
+    "Triggers": [
+     {
+      "Id": "225501307",
+      "Name": "Correct_Swell",
+      "ObjectPath": "\\Triggers\\Music\\Correct_Swell",
+      "GUID": "{71F2DDD7-8688-4934-9EB2-3342E07064AD}"
      }
     ]
    }
   ],
-  "FileHash": "{AC10DD26-6503-8806-F2B7-049F43813A00}"
+  "FileHash": "{ACA2C89C-A3BE-6641-9A0B-EA7BBA0E3D6C}"
  }
 }
