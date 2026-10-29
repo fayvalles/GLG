@@ -345,6 +345,36 @@
 												</SourceFadeOut>
 											</TransitionInfo>
 										</MusicTransition>
+										<MusicTransition Name="Transition" ID="{E2DD13ED-9E4F-42AC-9D93-9C6D0185DB4D}">
+											<PropertyList>
+												<Property Name="DestinationContextType" Type="int16" Value="2"/>
+												<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+												<Property Name="ExitSourceAt" Type="int16" Value="2"/>
+												<Property Name="SourceContextType" Type="int16" Value="2"/>
+												<Property Name="UseTransitionObject" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="DestinationContextObject">
+													<ObjectRef Name="Gameplay-GLG" ID="{0B6DF866-DE6D-4064-8DA8-86B6953C0E5B}" WorkUnitID="{E79C1F30-2B1A-4C2A-B0C6-F55F8003BA2A}"/>
+												</Reference>
+												<Reference Name="SourceContextObject">
+													<ObjectRef Name="Menu-Sinigang" ID="{E35446F8-D4C2-4887-A694-5645910770D0}" WorkUnitID="{E79C1F30-2B1A-4C2A-B0C6-F55F8003BA2A}"/>
+												</Reference>
+											</ReferenceList>
+											<TransitionInfo>
+												<TransitionObjectRef Name="TransitionFill_GameplayToCredits" ID="{A3549521-7AC1-4B78-93E6-AB9095604F52}" WorkUnitID="{E79C1F30-2B1A-4C2A-B0C6-F55F8003BA2A}"/>
+												<SourceFadeOut>
+													<MusicFade Name="Source Fade-out" ID="{1806CE6D-2F12-4DBC-A859-DC81AB66F825}">
+														<PropertyList>
+															<Property Name="FadeCurve" Type="int16" Value="2"/>
+															<Property Name="FadeOffset" Type="Real64" Value="1"/>
+															<Property Name="FadeTime" Type="Real64" Value="2.7"/>
+															<Property Name="FadeType" Type="int16" Value="1"/>
+														</PropertyList>
+													</MusicFade>
+												</SourceFadeOut>
+											</TransitionInfo>
+										</MusicTransition>
 										<MusicTransition Name="Transition" ID="{206A0580-8659-4169-93DF-F73D3458CD36}">
 											<PropertyList>
 												<Property Name="DestinationContextType" Type="int16" Value="2"/>
@@ -2805,14 +2835,13 @@
 												<Property Name="LoopCount" Type="int16" Value="0"/>
 											</PropertyList>
 											<ChildrenList>
-												<MusicPlaylistItem Name="" ID="{78F2D50E-95CC-410C-AFA3-A3E2B18C1E0D}" ShortID="831603736">
+												<MusicPlaylistItem Name="" ID="{B453313B-070E-477D-B320-75253DA06E65}" ShortID="750585034">
 													<PropertyList>
-														<Property Name="LoopCount" Type="int16" Value="0"/>
 														<Property Name="PlaylistItemType" Type="int16" Value="1"/>
 													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Segment">
-															<ObjectRef Name="Menu-Sinigang_126bpm4-4_L52M_P0" ID="{D74FD433-6089-4871-A97F-F0607A1AB04E}" WorkUnitID="{E79C1F30-2B1A-4C2A-B0C6-F55F8003BA2A}"/>
+															<ObjectRef Name="Menu-Sinigang-novox_126bpm4-4_L52M_P0" ID="{AA84CA5E-C893-4DDC-B308-A296AEEB2F16}" WorkUnitID="{E79C1F30-2B1A-4C2A-B0C6-F55F8003BA2A}"/>
 														</Reference>
 													</ReferenceList>
 												</MusicPlaylistItem>
@@ -2837,9 +2866,9 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<MusicSegment Name="Menu-Sinigang_126bpm4-4_L52M_P0" ID="{D74FD433-6089-4871-A97F-F0607A1AB04E}" ShortID="884638626">
+								<MusicSegment Name="Menu-Sinigang-novox_126bpm4-4_L52M_P0" ID="{AA84CA5E-C893-4DDC-B308-A296AEEB2F16}" ShortID="821804203">
 									<PropertyList>
-										<Property Name="EndPosition" Type="Real64" Value="99047.625"/>
+										<Property Name="EndPosition" Type="Real64" Value="102285.104166667"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -2850,14 +2879,14 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<MusicTrack Name="Faye_GLG_Music_Gameplay-Sinigang_Menu-FULL-LOOP_126bpm4-4_v1_7" ID="{D10849C1-8802-4AB9-98AF-F53F286ABF12}" ShortID="416427313">
+										<MusicTrack Name="Faye_GLG_Music_Gameplay-Sinigang_Menu-FULL-novox_126bpm4-4_v1_7" ID="{728B127B-D92D-4373-9104-4DD055147321}" ShortID="84817053">
 											<ReferenceList>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1DE4F480-CD82-433A-85DE-E3D2C32AE4ED}"/>
 												</Reference>
 												<Reference Name="TransitionRoot">
 													<Custom>
-														<MusicTransition Name="Root" ID="{66CFC832-2B5A-45EB-9CBD-9C4A1A4531E4}">
+														<MusicTransition Name="Root" ID="{CE1CF287-EA80-4E9E-9E04-412E8D8100D3}">
 															<PropertyList>
 																<Property Name="IsFolder" Type="bool" Value="True"/>
 															</PropertyList>
@@ -2867,11 +2896,11 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Faye_GLG_Music_Gameplay-Sinigang_Menu-FULL-LOOP_126bpm4-4_v1_7" ID="{E651A248-B07B-4BCA-8F31-4F47C1A7B222}">
+												<AudioFileSource Name="Faye_GLG_Music_Gameplay-Sinigang_Menu-FULL-novox_126bpm4-4_v1_7" ID="{C1E0414B-6085-4D19-A5BF-2F1C784E0DBC}">
 													<Language>SFX</Language>
-													<AudioFile>Faye_GLG_Music_Gameplay-Sinigang_Menu-FULL-LOOP_126bpm4-4_v1.7.wav</AudioFile>
+													<AudioFile>Faye_GLG_Music_Gameplay-Sinigang_Menu-FULL-novox_126bpm4-4_v1.7.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="25045746"/>
+														<MediaID ID="735041336"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
@@ -2879,18 +2908,18 @@
 												<ObjectList Name="Sequences">
 													<Reference>
 														<Local>
-															<MusicTrackSequence Name="" ID="{644A3F87-14A8-484F-99D0-21420736DFBF}">
+															<MusicTrackSequence Name="" ID="{C0F78A84-DE02-4063-B190-D7FB2FED9B65}">
 																<ObjectLists>
 																	<ObjectList Name="Clips">
 																		<Reference>
 																			<Local>
-																				<MusicClip Name="Faye_GLG_Music_Gameplay-Sinigang_Menu-FULL-LOOP_126bpm4-4_v1_7" ID="{A5209A7A-D192-4DD0-9A37-2572316673A3}">
+																				<MusicClip Name="Faye_GLG_Music_Gameplay-Sinigang_Menu-FULL-novox_126bpm4-4_v1_7" ID="{7AA90449-BE50-47D9-849E-03D1F751A4B3}">
 																					<PropertyList>
-																						<Property Name="EndTrimOffset" Type="Real64" Value="99047.625"/>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="102285.104166667"/>
 																						<Property Name="FadeInMode" Type="int16" Value="0"/>
 																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																					</PropertyList>
-																					<AudioSourceRef Name="Faye_GLG_Music_Gameplay-Sinigang_Menu-FULL-LOOP_126bpm4-4_v1_7" ID="{E651A248-B07B-4BCA-8F31-4F47C1A7B222}"/>
+																					<AudioSourceRef Name="Faye_GLG_Music_Gameplay-Sinigang_Menu-FULL-novox_126bpm4-4_v1_7" ID="{C1E0414B-6085-4D19-A5BF-2F1C784E0DBC}"/>
 																				</MusicClip>
 																			</Local>
 																		</Reference>
@@ -2907,15 +2936,15 @@
 										<ObjectList Name="Cues">
 											<Reference>
 												<Local>
-													<MusicCue Name="Entry Cue" ID="{75F345E1-0952-478D-8ACB-D929407F4441}"/>
+													<MusicCue Name="Entry Cue" ID="{F0AFA758-CFA6-414C-A394-BEAA2F1A479C}"/>
 												</Local>
 											</Reference>
 											<Reference>
 												<Local>
-													<MusicCue Name="Exit Cue" ID="{E4D08882-A143-49B4-ABF8-21F9E652218B}">
+													<MusicCue Name="Exit Cue" ID="{633693B9-9BC1-437E-A98A-6A000D7C3673}">
 														<PropertyList>
 															<Property Name="CueType" Type="int16" Value="1"/>
-															<Property Name="TimeMs" Type="Real64" Value="99047.625"/>
+															<Property Name="TimeMs" Type="Real64" Value="98814.7472144127"/>
 														</PropertyList>
 													</MusicCue>
 												</Local>
@@ -3389,6 +3418,11 @@
 								<MusicSegment Name="TransitionFill_GameplayToCredits" ID="{A3549521-7AC1-4B78-93E6-AB9095604F52}" ShortID="977291695">
 									<PropertyList>
 										<Property Name="EndPosition" Type="Real64" Value="5366.4375"/>
+										<Property Name="OutputBusVolume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
+										</Property>
 										<Property Name="OverrideOutput" Type="bool" Value="True"/>
 										<Property Name="Tempo" Type="Real64" Value="126"/>
 									</PropertyList>

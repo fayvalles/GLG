@@ -59,7 +59,7 @@
 											<PropertyList>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>-5</Value>
+														<Value>-3</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
@@ -101,6 +101,13 @@
 											</ObjectLists>
 										</Bus>
 										<Bus Name="Credits-Sinigang" ID="{4753ADF1-8586-4E9B-976B-F42BC740C2A8}">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-3.5</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ObjectLists>
 												<ObjectList Name="Effects">
 													<Reference>
@@ -120,6 +127,13 @@
 											</ObjectLists>
 										</Bus>
 										<Bus Name="Menu-Sinigang" ID="{2DF18C16-BFDB-4A18-B8A8-A6FD3ECB453F}">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-3.5</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ObjectLists>
 												<ObjectList Name="Effects">
 													<Reference>
@@ -139,6 +153,13 @@
 											</ObjectLists>
 										</Bus>
 										<Bus Name="Intro-Story" ID="{FA44A362-CCDB-44FD-96C6-F0F46BDFB3AF}">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>1</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ObjectLists>
 												<ObjectList Name="Effects">
 													<Reference>
