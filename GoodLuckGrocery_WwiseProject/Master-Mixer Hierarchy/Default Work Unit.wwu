@@ -59,7 +59,7 @@
 											<PropertyList>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>-3</Value>
+														<Value>-4</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
@@ -82,6 +82,13 @@
 											</ObjectLists>
 										</Bus>
 										<Bus Name="Gameplay-GLG" ID="{9CD5418F-FAA4-4198-8D25-F82AC5DE51B2}">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-6</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ObjectLists>
 												<ObjectList Name="Effects">
 													<Reference>
@@ -153,13 +160,6 @@
 											</ObjectLists>
 										</Bus>
 										<Bus Name="Intro-Story" ID="{FA44A362-CCDB-44FD-96C6-F0F46BDFB3AF}">
-											<PropertyList>
-												<Property Name="Volume" Type="Real64">
-													<ValueList>
-														<Value>1</Value>
-													</ValueList>
-												</Property>
-											</PropertyList>
 											<ObjectLists>
 												<ObjectList Name="Effects">
 													<Reference>

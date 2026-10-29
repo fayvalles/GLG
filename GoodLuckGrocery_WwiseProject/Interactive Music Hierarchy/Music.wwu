@@ -381,6 +381,7 @@
 												<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
 												<Property Name="ExitSourceAt" Type="int16" Value="2"/>
 												<Property Name="SourceContextType" Type="int16" Value="2"/>
+												<Property Name="UseTransitionObject" Type="bool" Value="True"/>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="DestinationContextObject">
@@ -391,12 +392,13 @@
 												</Reference>
 											</ReferenceList>
 											<TransitionInfo>
-												<TransitionObjectRef Name="TransitionFill_StoryToGameplay" ID="{9B025BE2-0B55-4A19-B932-B265502D9094}" WorkUnitID="{E79C1F30-2B1A-4C2A-B0C6-F55F8003BA2A}"/>
+												<TransitionObjectRef Name="TransitionFill_GameplayToCredits" ID="{A3549521-7AC1-4B78-93E6-AB9095604F52}" WorkUnitID="{E79C1F30-2B1A-4C2A-B0C6-F55F8003BA2A}"/>
 												<SourceFadeOut>
 													<MusicFade Name="Source Fade-out" ID="{5FCF34D1-471B-4473-A74B-B4AD08301133}">
 														<PropertyList>
-															<Property Name="FadeOffset" Type="Real64" Value="2"/>
-															<Property Name="FadeTime" Type="Real64" Value="2"/>
+															<Property Name="FadeCurve" Type="int16" Value="2"/>
+															<Property Name="FadeOffset" Type="Real64" Value="1"/>
+															<Property Name="FadeTime" Type="Real64" Value="2.7"/>
 															<Property Name="FadeType" Type="int16" Value="1"/>
 														</PropertyList>
 													</MusicFade>
@@ -3420,7 +3422,7 @@
 										<Property Name="EndPosition" Type="Real64" Value="5366.4375"/>
 										<Property Name="OutputBusVolume" Type="Real64">
 											<ValueList>
-												<Value>-3</Value>
+												<Value>-6</Value>
 											</ValueList>
 										</Property>
 										<Property Name="OverrideOutput" Type="bool" Value="True"/>
@@ -3511,6 +3513,11 @@
 								<MusicSegment Name="TransitionFill_StoryToGameplay" ID="{9B025BE2-0B55-4A19-B932-B265502D9094}" ShortID="682162506">
 									<PropertyList>
 										<Property Name="EndPosition" Type="Real64" Value="5366.4375"/>
+										<Property Name="OutputBusVolume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
+										</Property>
 										<Property Name="OverrideClockSettings" Type="bool" Value="True"/>
 										<Property Name="OverrideOutput" Type="bool" Value="True"/>
 										<Property Name="Tempo" Type="Real64" Value="116"/>
