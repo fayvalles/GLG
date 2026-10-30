@@ -10,11 +10,69 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{7878549C-0573-EEA6-A4C4-6D48EBCF41F2}",
+    "Hash": "{2EB55556-D344-46A8-B7A6-0238B5A72429}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
     "Plugins": {
+     "Custom": [
+      {
+       "Id": "74739985",
+       "Name": "Gain (Custom)",
+       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Music Audio Bus\\Music\\Credits-Sinigang\\[Effect Slot [0]: (Gain)]\\Gain (Custom)",
+       "GUID": "{CB2CDCBB-B08B-44B7-8F01-723D4D87FF3D}",
+       "LibName": "Wwise Gain",
+       "LibId": "9109507"
+      },
+      {
+       "Id": "296758930",
+       "Name": "Gain (Custom)",
+       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Music Audio Bus\\Music\\Intro-Story\\[Effect Slot [0]: (Gain)]\\Gain (Custom)",
+       "GUID": "{DC6D83F6-0DD0-4218-8995-3AA2FFA8324C}",
+       "LibName": "Wwise Gain",
+       "LibId": "9109507"
+      },
+      {
+       "Id": "444739723",
+       "Name": "Gain (Custom)",
+       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Music Audio Bus\\Music\\Gameplay-GLG\\[Effect Slot [0]: (Gain)]\\Gain (Custom)",
+       "GUID": "{297D4A65-D18B-4D66-A14D-F3E911839F6E}",
+       "LibName": "Wwise Gain",
+       "LibId": "9109507"
+      },
+      {
+       "Id": "620489933",
+       "Name": "Gain (Custom)",
+       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Music Audio Bus\\Music\\BadEnding-Nostalgie\\[Effect Slot [0]: (Gain)]\\Gain (Custom)",
+       "GUID": "{CAA74A52-5CB3-4B76-926B-E814CA200E35}",
+       "LibName": "Wwise Gain",
+       "LibId": "9109507"
+      },
+      {
+       "Id": "813753039",
+       "Name": "Gain (Custom)",
+       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Music Audio Bus\\Music\\Gameplay-Sinigang\\[Effect Slot [0]: (Gain)]\\Gain (Custom)",
+       "GUID": "{953B5DA7-9501-41EF-9382-988ACD5DDB1E}",
+       "LibName": "Wwise Gain",
+       "LibId": "9109507"
+      },
+      {
+       "Id": "917226217",
+       "Name": "Gain (Custom)",
+       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Music Audio Bus\\Music\\Menu-Sinigang\\[Effect Slot [0]: (Gain)]\\Gain (Custom)",
+       "GUID": "{204933BB-58CB-4C6F-B326-AC913E5D7737}",
+       "LibName": "Wwise Gain",
+       "LibId": "9109507"
+      },
+      {
+       "Id": "1038499363",
+       "Name": "Gain (Custom)",
+       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Music Audio Bus\\Music\\TransitionFills\\[Effect Slot [0]: (Gain)]\\Gain (Custom)",
+       "GUID": "{B6B9D23D-17E9-4EEB-A077-9B6A4554A1C3}",
+       "LibName": "Wwise Gain",
+       "LibId": "9109507"
+      }
+     ],
      "ShareSets": [
       {
        "Id": "205458614",
@@ -54,10 +112,49 @@
     },
     "Busses": [
      {
+      "Id": "65539383",
+      "Name": "Menu-Sinigang",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Music Audio Bus\\Music\\Menu-Sinigang",
+      "GUID": "{2DF18C16-BFDB-4A18-B8A8-A6FD3ECB453F}",
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "917226217"
+        }
+       ]
+      }
+     },
+     {
       "Id": "493417818",
       "Name": "Music Audio Bus",
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Music Audio Bus",
       "GUID": "{D309A055-D56F-4E69-AFE4-54ABF24DE788}"
+     },
+     {
+      "Id": "516365885",
+      "Name": "Intro-Story",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Music Audio Bus\\Music\\Intro-Story",
+      "GUID": "{FA44A362-CCDB-44FD-96C6-F0F46BDFB3AF}",
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "296758930"
+        }
+       ]
+      }
+     },
+     {
+      "Id": "651382872",
+      "Name": "Credits-Sinigang",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Music Audio Bus\\Music\\Credits-Sinigang",
+      "GUID": "{4753ADF1-8586-4E9B-976B-F42BC740C2A8}",
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "74739985"
+        }
+       ]
+      }
      },
      {
       "Id": "1752864040",
@@ -73,16 +170,68 @@
       }
      },
      {
+      "Id": "1835489004",
+      "Name": "BadEnding-Nostalgie",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Music Audio Bus\\Music\\BadEnding-Nostalgie",
+      "GUID": "{6E927DFB-1F51-4201-AA51-2DD7CC18B6C7}",
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "620489933"
+        }
+       ]
+      }
+     },
+     {
       "Id": "2930807276",
       "Name": "PA Audio Bus",
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\PA Audio Bus",
       "GUID": "{DB99D59F-CC09-4CB1-A688-33C6FC9642C5}"
      },
      {
+      "Id": "3230938710",
+      "Name": "Gameplay-GLG",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Music Audio Bus\\Music\\Gameplay-GLG",
+      "GUID": "{9CD5418F-FAA4-4198-8D25-F82AC5DE51B2}",
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "444739723"
+        }
+       ]
+      }
+     },
+     {
       "Id": "3460846287",
       "Name": "Dialogue Audio Bus",
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Dialogue Audio Bus",
       "GUID": "{FF91C8DE-193B-4F47-BD67-2389CDE9E25B}"
+     },
+     {
+      "Id": "3566394466",
+      "Name": "TransitionFills",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Music Audio Bus\\Music\\TransitionFills",
+      "GUID": "{0DFD9A1C-1241-48EB-B9A3-F813D2ADA13F}",
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "1038499363"
+        }
+       ]
+      }
+     },
+     {
+      "Id": "3786707644",
+      "Name": "Gameplay-Sinigang",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Music Audio Bus\\Music\\Gameplay-Sinigang",
+      "GUID": "{6D05C672-AA21-4C40-8FC5-B5E9F9670BE1}",
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "813753039"
+        }
+       ]
+      }
      },
      {
       "Id": "3803692087",
@@ -198,6 +347,6 @@
     ]
    }
   ],
-  "FileHash": "{69235F01-710C-A3A6-FBBD-A22AB41607DE}"
+  "FileHash": "{991F7CCF-968C-6BD7-FA09-F6959A4C87DF}"
  }
 }

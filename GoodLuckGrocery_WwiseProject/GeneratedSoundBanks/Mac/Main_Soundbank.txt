@@ -1,8 +1,57 @@
 Event	ID	Name			Wwise Object Path	Notes
+	89505537	Gameplay			\Anastasija\Gameplay	
 	579163286	narr_001			\Fay\narr_001	
+	1686739444	Story			\Anastasija\Story	
+	2201105581	Credits			\Anastasija\Credits	
+	2607556080	Menu			\Anastasija\Menu	
 	2756333705	Collect			\Fay\Collect	
+	2804304819	BadEnding			\Anastasija\BadEnding	
+	3991942870	Music			\Anastasija\Music	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	3826569560	Music_State			\Music\Music_State	
+
+State	ID	Name	State Group			Notes
+	89505537	Gameplay	Music_State			
+	748895195	None	Music_State			
+	1071673695	GoodEnding	Music_State			
+	1686739444	Story	Music_State			
+	2607556080	Menu	Music_State			
+	2804304819	BadEnding	Music_State			
+
+Trigger	ID	Name			Wwise Object Path	Notes
+	225501307	Correct_Swell			\Music\Correct_Swell	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	27929956	GLG_Stinger-Correct_126bpm4-4_L2M_P0	C:\Users\ilani\Game Projects\GLG\GoodLuckGrocery_WwiseProject\.cache\FD\{FD5BFD59-9199-3EE0-508C-16E0BF828F9F}.wem		\Interactive Music Hierarchy\Music\Stingers\Stinger-Correct_126bpm4-4_L2M_P0\GLG_Stinger-Correct_126bpm4-4_L2M_P0		1030548
+	74084469	Faye_GLG_Music_Gameplay-GLG_Verse-VoxMelody_116bpm4-4_L8M_P0	C:\Users\ilani\Game Projects\GLG\GoodLuckGrocery_WwiseProject\.cache\88\{88B89ACE-4057-4D76-73E1-141FD0C41D12}.wem		\Interactive Music Hierarchy\Music\GLG Music\Gameplay-GLG\GLG-Verse\Faye_GLG_Music_Gameplay-GLG_Verse-VoxMelody_116bpm4-4_L8M_P0		4438532
+	104376539	Faye_GLG_Music__TransitionFill-GameplayToCredits_126bpm4-4_L1M_P0	C:\Users\ilani\Game Projects\GLG\GoodLuckGrocery_WwiseProject\.cache\9B\{9BC0100E-68BA-B385-B962-16620283C356}.wem		\Interactive Music Hierarchy\Music\GLG Music\TransitionFills\TransitionFill_GameplayToCredits\Faye_GLG_Music__TransitionFill-GameplayToCredits_126bpm4-4_L1M_P0		1030980
+	162216277	Faye_GLG_Music_Gameplay-GLG_Body-DrumsElectric_116bpm4-4_L8M_P0	C:\Users\ilani\Game Projects\GLG\GoodLuckGrocery_WwiseProject\.cache\6D\{6DC31DAF-DD45-DE55-B22F-BCE0AC08760B}.wem		\Interactive Music Hierarchy\Music\GLG Music\Gameplay-GLG\GLG-Body\Faye_GLG_Music_Gameplay-GLG_Body-DrumsElectric_116bpm4-4_L8M_P0		3389956
+	198421826	Faye_GLG_Music_Gameplay-GLG_Chorus-VoxSynthMelody1_116bpm4-4_L8M_P0	C:\Users\ilani\Game Projects\GLG\GoodLuckGrocery_WwiseProject\.cache\9D\{9D506336-A95C-E267-4E2B-58C8B9B2704D}.wem		\Interactive Music Hierarchy\Music\GLG Music\Gameplay-GLG\GLG-Chorus\Faye_GLG_Music_Gameplay-GLG_Chorus-VoxSynthMelody1_116bpm4-4_L8M_P0		4438532
+	200566470	Faye_GLG_Music_Gameplay-GLG_Body-KeysMel_116bpm4-4_L8M_P0	C:\Users\ilani\Game Projects\GLG\GoodLuckGrocery_WwiseProject\.cache\39\{39C6ACD2-C12A-F61B-9EDC-C79E3F572E91}.wem		\Interactive Music Hierarchy\Music\GLG Music\Gameplay-GLG\GLG-Body\Faye_GLG_Music_Gameplay-GLG_Body-KeysMel_116bpm4-4_L8M_P0		3389956
+	232214480	Faye_GLG_Music_Gameplay-GLG_Body-DrumsElectric_116bpm4-4_L8M_P0	C:\Users\ilani\Game Projects\GLG\GoodLuckGrocery_WwiseProject\.cache\38\{3867AB2B-9697-B346-7200-05B844FA183D}.wem		\Interactive Music Hierarchy\Music\GLG Music\Gameplay-GLG\GLG-Verse\Faye_GLG_Music_Gameplay-GLG_Body-DrumsElectric_116bpm4-4_L8M_P0		3652100
+	274692348	Faye_GLG_Music_Gameplay-GLG_Body-Guitar3Both_116bpm4-4_L8M_P0	C:\Users\ilani\Game Projects\GLG\GoodLuckGrocery_WwiseProject\.cache\B0\{B03B3F67-C775-04B9-0245-0BDD01FE9AFA}.wem		\Interactive Music Hierarchy\Music\GLG Music\Gameplay-GLG\GLG-Chorus\Faye_GLG_Music_Gameplay-GLG_Body-Guitar3Both_116bpm4-4_L8M_P0		3914244
+	329082193	Faye_GLG_Music_Gameplay-GLG_Chorus-VoxMelody2_116bpm4-4_L8M_P0	C:\Users\ilani\Game Projects\GLG\GoodLuckGrocery_WwiseProject\.cache\06\{06D10ED6-6371-9C4C-B8BD-127749459FBA}.wem		\Interactive Music Hierarchy\Music\GLG Music\Gameplay-GLG\GLG-Chorus\Faye_GLG_Music_Gameplay-GLG_Chorus-VoxMelody2_116bpm4-4_L8M_P0		4438532
 	389099927	narr_001	C:\Users\ilani\Game Projects\GLG\GoodLuckGrocery_WwiseProject\.cache\45\{4535A041-B1AC-FE5A-9270-3CC728229A9C}.wem		\Actor-Mixer Hierarchy\Fay - VO\VO_Dialogue\narr_001		2742036
+	389573903	Faye_GLG_Music_Gameplay-GLG_Outro-FULL_116bpm4-4_L8M_P0	C:\Users\ilani\Game Projects\GLG\GoodLuckGrocery_WwiseProject\.cache\80\{8038976F-FD9C-8589-928D-98F9CBA1DB8B}.wem		\Interactive Music Hierarchy\Music\GLG Music\Gameplay-GLG\GLG-Outro\Faye_GLG_Music_Gameplay-GLG_Outro-FULL_116bpm4-4_L8M_P0		1817044
+	390832256	Faye_GLG_Music_Gameplay-GLG_Chorus-VoxMelody2_116bpm4-4_L8M_P0	C:\Users\ilani\Game Projects\GLG\GoodLuckGrocery_WwiseProject\.cache\AD\{AD70A19A-C3CB-89CD-32C7-C389A7D924C9}.wem		\Interactive Music Hierarchy\Music\GLG Music\Gameplay-GLG\GLG-Chorus\Faye_GLG_Music_Gameplay-GLG_Chorus-VoxMelody2_116bpm4-4_L8M_P0		4438532
 	417137306	CollectSound	C:\Users\ilani\Game Projects\GLG\GoodLuckGrocery_WwiseProject\.cache\BA\{BAC4FBBC-770D-065F-6620-3AB982612D44}.wem		\Actor-Mixer Hierarchy\Fay - VO\CollectSound		124160
+	532475260	Faye_GLG_Music_Gameplay-GLG_Body-Guitar3Both_116bpm4-4_L8M_P0	C:\Users\ilani\Game Projects\GLG\GoodLuckGrocery_WwiseProject\.cache\7D\{7D899681-7EBA-E96E-6699-B8AF2B748408}.wem		\Interactive Music Hierarchy\Music\GLG Music\Gameplay-GLG\GLG-Chorus\Faye_GLG_Music_Gameplay-GLG_Body-Guitar3Both_116bpm4-4_L8M_P0		3914244
+	539599525	BridgeToGameplay_SiningangToGLG_126bpm4-4_L8M_P0	C:\Users\ilani\Game Projects\GLG\GoodLuckGrocery_WwiseProject\.cache\B5\{B538D0E0-6544-1D08-E0DF-7B40A0442DBE}.wem		\Interactive Music Hierarchy\Music\GLG Music\Intro-Story\BridgeToGameplay_SiningangToGLG_126bpm4-4_L8M_P0\BridgeToGameplay_SiningangToGLG_126bpm4-4_L8M_P0		3648164
+	544230789	Faye_GLG_Music_Gameplay-GLG_Chorus-VoxSynthMelody1_116bpm4-4_L8M_P0	C:\Users\ilani\Game Projects\GLG\GoodLuckGrocery_WwiseProject\.cache\EB\{EBEA3690-9DD8-0F3D-C73B-5D4F59803C53}.wem		\Interactive Music Hierarchy\Music\GLG Music\Gameplay-GLG\GLG-Chorus\Faye_GLG_Music_Gameplay-GLG_Chorus-VoxSynthMelody1_116bpm4-4_L8M_P0		4438532
+	612671681	Faye_GLG_Music_Gameplay-GLG_Body-KeysHarm_116bpm4-4_L8M_P0	C:\Users\ilani\Game Projects\GLG\GoodLuckGrocery_WwiseProject\.cache\48\{48106757-2BFD-50FB-18F9-6D2308E3C423}.wem		\Interactive Music Hierarchy\Music\GLG Music\Gameplay-GLG\GLG-Chorus\Faye_GLG_Music_Gameplay-GLG_Body-KeysHarm_116bpm4-4_L8M_P0		3389956
+	651538001	Faye_GLG_Music_Gameplay-GLG_Chorus-VoxMelody2_116bpm4-4_L8M_P0	C:\Users\ilani\Game Projects\GLG\GoodLuckGrocery_WwiseProject\.cache\E7\{E7DAE5F2-4305-9F45-B3D9-6639D6FB8109}.wem		\Interactive Music Hierarchy\Music\GLG Music\Gameplay-GLG\GLG-Chorus\Faye_GLG_Music_Gameplay-GLG_Chorus-VoxMelody2_116bpm4-4_L8M_P0		4438532
+	709800815	Faye_GLG_Music_Gameplay-Sinigang_Credits-FULL-OPEN_126bpm4-4_v1_7	C:\Users\ilani\Game Projects\GLG\GoodLuckGrocery_WwiseProject\.cache\42\{42003749-2B0F-A318-C0EE-71D24845D129}.wem		\Interactive Music Hierarchy\Music\GLG Music\Credits-Sinigang\Faye_GLG_Music_Gameplay-Sinigang_Credits-FULL-OPEN_126bpm4-4_v1_7\Faye_GLG_Music_Gameplay-Sinigang_Credits-FULL-OPEN_126bpm4-4_v1_7		19639220
+	735041336	Faye_GLG_Music_Gameplay-Sinigang_Menu-FULL-novox_126bpm4-4_v1_7	C:\Users\ilani\Game Projects\GLG\GoodLuckGrocery_WwiseProject\.cache\3B\{3B7DD3EF-EF83-E6A4-3026-0E35FEB15559}.wem		\Interactive Music Hierarchy\Music\GLG Music\Menu-Sinigang\Menu-Sinigang-novox_126bpm4-4_L52M_P0\Faye_GLG_Music_Gameplay-Sinigang_Menu-FULL-novox_126bpm4-4_v1_7		19639220
+	864528647	Faye_GLG_Music_Gameplay-GLG_Body-Guitar3Both_116bpm4-4_L8M_P0	C:\Users\ilani\Game Projects\GLG\GoodLuckGrocery_WwiseProject\.cache\AB\{AB19CE33-0C54-F7B5-D939-F3F085962B87}.wem		\Interactive Music Hierarchy\Music\GLG Music\Gameplay-GLG\GLG-Chorus\Faye_GLG_Music_Gameplay-GLG_Body-Guitar3Both_116bpm4-4_L8M_P0		3389956
+	868647681	Faye_GLG_Music_Gameplay-GLG_Chorus-VoxSynthMelody1_116bpm4-4_L8M_P0	C:\Users\ilani\Game Projects\GLG\GoodLuckGrocery_WwiseProject\.cache\89\{89F8D29A-CBEA-607E-16A3-B1535A52F7E6}.wem		\Interactive Music Hierarchy\Music\GLG Music\Gameplay-GLG\GLG-Chorus\Faye_GLG_Music_Gameplay-GLG_Chorus-VoxSynthMelody1_116bpm4-4_L8M_P0		4438532
+	871125285	Faye_GLG_Music_Transition-StoryToGameplay_DrumFill_116bpm4-4_L1M_P0	C:\Users\ilani\Game Projects\GLG\GoodLuckGrocery_WwiseProject\.cache\FD\{FDAC5822-2A8E-9EC7-6DC3-62C2E44F773D}.wem		\Interactive Music Hierarchy\Music\GLG Music\TransitionFills\TransitionFill_StoryToGameplay\Faye_GLG_Music_Transition-StoryToGameplay_DrumFill_116bpm4-4_L1M_P0		1030660
+	881895933	Faye_GLG_Music_Gameplay-GLG_Body-Bass2_116bpm4-4_L8M_P0	C:\Users\ilani\Game Projects\GLG\GoodLuckGrocery_WwiseProject\.cache\BD\{BD7EA88B-5DEE-DEF9-61E3-5990320503C0}.wem		\Interactive Music Hierarchy\Music\GLG Music\Gameplay-GLG\GLG-Verse\Faye_GLG_Music_Gameplay-GLG_Body-Bass2_116bpm4-4_L8M_P0		3389956
+	888937146	Faye_GLG_Music_Gameplay-GLG_Verse-VoxMelody_116bpm4-4_L8M_P0	C:\Users\ilani\Game Projects\GLG\GoodLuckGrocery_WwiseProject\.cache\D0\{D0AAF213-8C65-FA42-9FC6-12C8905EE384}.wem		\Interactive Music Hierarchy\Music\GLG Music\Gameplay-GLG\GLG-Verse\Faye_GLG_Music_Gameplay-GLG_Verse-VoxMelody_116bpm4-4_L8M_P0		3652100
+	954655216	Faye_GLG_Music_Transition-StoryToGameplay_GuitarFill_116bpm4-4_L1M_P0	C:\Users\ilani\Game Projects\GLG\GoodLuckGrocery_WwiseProject\.cache\BB\{BB3202B2-C2D5-9683-7A39-8D567A482308}.wem		\Interactive Music Hierarchy\Music\GLG Music\TransitionFills\TransitionFill_StoryToGameplay\Faye_GLG_Music_Transition-StoryToGameplay_GuitarFill_116bpm4-4_L1M_P0		1030660
+	979865006	Faye_GLG_Music_Transition-BadEndingToGameplay_DrumFill_96bpm4-4_L1M_P0	C:\Users\ilani\Game Projects\GLG\GoodLuckGrocery_WwiseProject\.cache\72\{72D8EA4E-B7D5-226D-736A-826B09D892E3}.wem		\Interactive Music Hierarchy\Music\GLG Music\TransitionFills\TransitionFill_BadEndingToGameplay\Faye_GLG_Music_Transition-BadEndingToGameplay_DrumFill_96bpm4-4_L1M_P0		1030724
+	985372436	Faye_GLG_Music_Gameplay-GLG_Chorus-VoxMelody_116bpm4-4_L8M_P0	C:\Users\ilani\Game Projects\GLG\GoodLuckGrocery_WwiseProject\.cache\FB\{FB4A37C5-316D-A019-2BC3-03BB657A9697}.wem		\Interactive Music Hierarchy\Music\GLG Music\Gameplay-GLG\GLG-Chorus\Faye_GLG_Music_Gameplay-GLG_Chorus-VoxMelody_116bpm4-4_L8M_P0		3652100
+	1014078281	Faye_GLG_Music_Gameplay-GLG_Body-Bass3Tension_116bpm4-4_L8M_P0	C:\Users\ilani\Game Projects\GLG\GoodLuckGrocery_WwiseProject\.cache\3B\{3BEA8781-41CE-7E0E-AEAB-A292284158A9}.wem		\Interactive Music Hierarchy\Music\GLG Music\Gameplay-GLG\GLG-Body\Faye_GLG_Music_Gameplay-GLG_Body-Bass3Tension_116bpm4-4_L8M_P0		3389956
+	1045747163	Faye_GLG_Music_Gameplay-GLG_Intro-FULL_116bpm4-4_L4M_P0	C:\Users\ilani\Game Projects\GLG\GoodLuckGrocery_WwiseProject\.cache\18\{1809A343-1395-DF8E-3E82-D89A8450264F}.wem		\Interactive Music Hierarchy\Music\GLG Music\Gameplay-GLG\GLG-Intro\Faye_GLG_Music_Gameplay-GLG_Intro-FULL_116bpm4-4_L4M_P0		2341380
+	1048768466	Faye_GLG_Music_Gameplay-Nostalgie_FULL-Open_96bpm4-4_L8M_P0	C:\Users\ilani\Game Projects\GLG\GoodLuckGrocery_WwiseProject\.cache\68\{68C9D972-CD14-B2D1-B609-024A8C22C7F0}.wem		\Interactive Music Hierarchy\Music\GLG Music\BadEnding-Nostalgie\BadEnding-Nostalgie_96bpm4-4_L8M_P0\Faye_GLG_Music_Gameplay-Nostalgie_FULL-Open_96bpm4-4_L8M_P0		4438420
 

@@ -10,11 +10,83 @@
     "Type": "User",
     "GUID": "{47EEF658-C774-4B22-BB9D-EC67492211AD}",
     "Language": "SFX",
-    "Hash": "{517436DC-DD7E-5D44-1C22-EA53585DC5B7}",
+    "Hash": "{F089122B-3299-A9CB-4461-681AF2EB35B3}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main_Soundbank",
     "ShortName": "Main_Soundbank",
     "Path": "Main_Soundbank.bnk",
     "Media": [
+     {
+      "Id": "27929956",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Faye_GLG_Music_Gameplay-Stingers_CORRECT_v1.1.wav",
+      "CachePath": "FD/{FD5BFD59-9199-3EE0-508C-16E0BF828F9F}.wem"
+     },
+     {
+      "Id": "74084469",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Faye_GLG_Music_Gameplay-GLG_Verse-VoxMelody_116bpm4-4_L8M_P0.wav",
+      "CachePath": "88/{88B89ACE-4057-4D76-73E1-141FD0C41D12}.wem"
+     },
+     {
+      "Id": "104376539",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Faye_GLG_Music__TransitionFill-GameplayToCredits_126bpm4-4_L1M_P0.wav",
+      "CachePath": "9B/{9BC0100E-68BA-B385-B962-16620283C356}.wem"
+     },
+     {
+      "Id": "162216277",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Faye_GLG_Music_Gameplay-GLG_Body-DrumsElectric_116bpm4-4_L8M_P0.wav",
+      "CachePath": "6D/{6DC31DAF-DD45-DE55-B22F-BCE0AC08760B}.wem"
+     },
+     {
+      "Id": "198421826",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Faye_GLG_Music_Gameplay-GLG_Chorus-VoxSynthMelodyALL_116bpm4-4_L8M_P0.wav",
+      "CachePath": "9D/{9D506336-A95C-E267-4E2B-58C8B9B2704D}.wem"
+     },
+     {
+      "Id": "200566470",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Faye_GLG_Music_Gameplay-GLG_Body-KeysMel_116bpm4-4_L8M_P0.wav",
+      "CachePath": "39/{39C6ACD2-C12A-F61B-9EDC-C79E3F572E91}.wem"
+     },
+     {
+      "Id": "232214480",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Faye_GLG_Music_Gameplay-GLG_Body-DrumsFull_116bpm4-4_L8M_P0.wav",
+      "CachePath": "38/{3867AB2B-9697-B346-7200-05B844FA183D}.wem"
+     },
+     {
+      "Id": "274692348",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Faye_GLG_Music_Gameplay-GLG_Body-Guitar3Both_116bpm4-4_L8M_P0.wav",
+      "CachePath": "B0/{B03B3F67-C775-04B9-0245-0BDD01FE9AFA}.wem"
+     },
+     {
+      "Id": "329082193",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Faye_GLG_Music_Gameplay-GLG_Chorus-VoxMelody_116bpm4-4_L8M_P0.wav",
+      "CachePath": "06/{06D10ED6-6371-9C4C-B8BD-127749459FBA}.wem"
+     },
      {
       "Id": "389099927",
       "Language": "SFX",
@@ -24,15 +96,194 @@
       "CachePath": "45/{4535A041-B1AC-FE5A-9270-3CC728229A9C}.wem"
      },
      {
+      "Id": "389573903",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Faye_GLG_Music_Gameplay-GLG_Outro-FULL_116bpm4-4_L8M_P0.wav",
+      "CachePath": "80/{8038976F-FD9C-8589-928D-98F9CBA1DB8B}.wem"
+     },
+     {
+      "Id": "390832256",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Faye_GLG_Music_Gameplay-GLG_Chorus-VoxMelody1_116bpm4-4_L8M_P0.wav",
+      "CachePath": "AD/{AD70A19A-C3CB-89CD-32C7-C389A7D924C9}.wem"
+     },
+     {
       "Id": "417137306",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Dash.wav",
       "CachePath": "BA/{BAC4FBBC-770D-065F-6620-3AB982612D44}.wem"
+     },
+     {
+      "Id": "532475260",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Faye_GLG_Music_Gameplay-GLG_Body-Guitar1_116bpm4-4_L8M_P0.wav",
+      "CachePath": "7D/{7D899681-7EBA-E96E-6699-B8AF2B748408}.wem"
+     },
+     {
+      "Id": "539599525",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Faye_GLG_Music_Gameplay-Bridge_SiningangToGLG_126bpm4-4_L8M_P0.wav",
+      "CachePath": "B5/{B538D0E0-6544-1D08-E0DF-7B40A0442DBE}.wem"
+     },
+     {
+      "Id": "544230789",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Faye_GLG_Music_Gameplay-GLG_Chorus-VoxSynthMelody2_116bpm4-4_L8M_P0.wav",
+      "CachePath": "EB/{EBEA3690-9DD8-0F3D-C73B-5D4F59803C53}.wem"
+     },
+     {
+      "Id": "612671681",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Faye_GLG_Music_Gameplay-GLG_Body-KeysHarm_116bpm4-4_L8M_P0.wav",
+      "CachePath": "48/{48106757-2BFD-50FB-18F9-6D2308E3C423}.wem"
+     },
+     {
+      "Id": "651538001",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Faye_GLG_Music_Gameplay-GLG_Chorus-VoxMelody2_116bpm4-4_L8M_P0.wav",
+      "CachePath": "E7/{E7DAE5F2-4305-9F45-B3D9-6639D6FB8109}.wem"
+     },
+     {
+      "Id": "709800815",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Faye_GLG_Music_Gameplay-Sinigang_Credits-FULL-OPEN_126bpm4-4_v1.7.wav",
+      "CachePath": "42/{42003749-2B0F-A318-C0EE-71D24845D129}.wem"
+     },
+     {
+      "Id": "735041336",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Faye_GLG_Music_Gameplay-Sinigang_Menu-FULL-novox_126bpm4-4_v1.7.wav",
+      "CachePath": "3B/{3B7DD3EF-EF83-E6A4-3026-0E35FEB15559}.wem"
+     },
+     {
+      "Id": "864528647",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Faye_GLG_Music_Gameplay-GLG_Body-Guitar2_116bpm4-4_L8M_P0.wav",
+      "CachePath": "AB/{AB19CE33-0C54-F7B5-D939-F3F085962B87}.wem"
+     },
+     {
+      "Id": "868647681",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Faye_GLG_Music_Gameplay-GLG_Chorus-VoxSynthMelody1_116bpm4-4_L8M_P0.wav",
+      "CachePath": "89/{89F8D29A-CBEA-607E-16A3-B1535A52F7E6}.wem"
+     },
+     {
+      "Id": "871125285",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Faye_GLG_Music_Transition-StoryToGameplay_DrumFill_116bpm4-4_L1M_P0.wav",
+      "CachePath": "FD/{FDAC5822-2A8E-9EC7-6DC3-62C2E44F773D}.wem"
+     },
+     {
+      "Id": "881895933",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Faye_GLG_Music_Gameplay-GLG_Body-Bass2_116bpm4-4_L8M_P0.wav",
+      "CachePath": "BD/{BD7EA88B-5DEE-DEF9-61E3-5990320503C0}.wem"
+     },
+     {
+      "Id": "888937146",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Faye_GLG_Music_Gameplay-GLG_Verse-SynthMelody-Fixed_116bpm4-4_L8M_P0.wav",
+      "CachePath": "D0/{D0AAF213-8C65-FA42-9FC6-12C8905EE384}.wem"
+     },
+     {
+      "Id": "954655216",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Faye_GLG_Music_Transition-StoryToGameplay_GuitarFill_116bpm4-4_L1M_P0.wav",
+      "CachePath": "BB/{BB3202B2-C2D5-9683-7A39-8D567A482308}.wem"
+     },
+     {
+      "Id": "979865006",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Faye_GLG_Music_Transition-BadEndingToGameplay_DrumFill_96bpm4-4_L1M_P0.wav",
+      "CachePath": "72/{72D8EA4E-B7D5-226D-736A-826B09D892E3}.wem"
+     },
+     {
+      "Id": "985372436",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Faye_GLG_Music_Gameplay-GLG_Chorus-SynthMelody-Fixed_116bpm4-4_L8M_P0.wav",
+      "CachePath": "FB/{FB4A37C5-316D-A019-2BC3-03BB657A9697}.wem"
+     },
+     {
+      "Id": "1014078281",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Faye_GLG_Music_Gameplay-GLG_Body-Bass1_116bpm4-4_L8M_P0.wav",
+      "CachePath": "3B/{3BEA8781-41CE-7E0E-AEAB-A292284158A9}.wem"
+     },
+     {
+      "Id": "1045747163",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Faye_GLG_Music_Gameplay-GLG_Intro-FULL_116bpm4-4_L4M_P0.wav",
+      "CachePath": "18/{1809A343-1395-DF8E-3E82-D89A8450264F}.wem"
+     },
+     {
+      "Id": "1048768466",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Faye_GLG_Music_Gameplay-Nostalgie_FULL-Open_96bpm4-4_L8M_P0.wav",
+      "CachePath": "68/{68C9D972-CD14-B2D1-B609-024A8C22C7F0}.wem"
      }
     ],
     "Events": [
+     {
+      "Id": "2804304819",
+      "Name": "BadEnding",
+      "ObjectPath": "\\Events\\Anastasija\\BadEnding",
+      "GUID": "{D9CD34AE-D097-43C5-A7C5-EAA4030B2889}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0",
+      "ActionSetState": [
+       {
+        "GroupId": "3826569560",
+        "Id": "2804304819",
+        "Name": "BadEnding",
+        "ObjectPath": "\\States\\Music\\Music_State\\BadEnding",
+        "GUID": "{50BEE16E-60A6-4984-A678-9A2D0DD50074}"
+       }
+      ]
+     },
      {
       "Id": "2756333705",
       "Name": "Collect",
@@ -56,6 +307,220 @@
       ]
      },
      {
+      "Id": "2201105581",
+      "Name": "Credits",
+      "ObjectPath": "\\Events\\Anastasija\\Credits",
+      "GUID": "{85D21B1C-1B0E-42A8-8119-C683C7EBB54C}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0",
+      "ActionSetState": [
+       {
+        "GroupId": "3826569560",
+        "Id": "1071673695",
+        "Name": "GoodEnding",
+        "ObjectPath": "\\States\\Music\\Music_State\\GoodEnding",
+        "GUID": "{FFC1E3DF-519A-413E-8BE4-55F602C7A9D3}"
+       }
+      ]
+     },
+     {
+      "Id": "89505537",
+      "Name": "Gameplay",
+      "ObjectPath": "\\Events\\Anastasija\\Gameplay",
+      "GUID": "{48CFD985-9B71-43A4-8BDC-D3658E41B740}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0",
+      "ActionSetState": [
+       {
+        "GroupId": "3826569560",
+        "Id": "89505537",
+        "Name": "Gameplay",
+        "ObjectPath": "\\States\\Music\\Music_State\\Gameplay",
+        "GUID": "{B9C43B31-A35A-4BAC-A9CF-F00E6DE3DB70}"
+       }
+      ]
+     },
+     {
+      "Id": "2607556080",
+      "Name": "Menu",
+      "ObjectPath": "\\Events\\Anastasija\\Menu",
+      "GUID": "{19515BC2-C8A9-4B56-93CB-C207D9EAC854}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0",
+      "ActionSetState": [
+       {
+        "GroupId": "3826569560",
+        "Id": "2607556080",
+        "Name": "Menu",
+        "ObjectPath": "\\States\\Music\\Music_State\\Menu",
+        "GUID": "{055FE003-CAC4-44B3-B569-20A00344FDD5}"
+       }
+      ]
+     },
+     {
+      "Id": "3991942870",
+      "Name": "Music",
+      "ObjectPath": "\\Events\\Anastasija\\Music",
+      "GUID": "{D7C47F89-F621-4714-8710-9B236EA9B110}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "27929956"
+       },
+       {
+        "Id": "104376539"
+       },
+       {
+        "Id": "871125285"
+       },
+       {
+        "Id": "954655216"
+       },
+       {
+        "Id": "979865006"
+       }
+      ],
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "3826569560",
+         "Id": "2607556080",
+         "GUID": "{055FE003-CAC4-44B3-B569-20A00344FDD5}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "735041336"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "3826569560",
+         "Id": "89505537",
+         "GUID": "{B9C43B31-A35A-4BAC-A9CF-F00E6DE3DB70}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "74084469"
+         },
+         {
+          "Id": "162216277"
+         },
+         {
+          "Id": "198421826"
+         },
+         {
+          "Id": "200566470"
+         },
+         {
+          "Id": "232214480"
+         },
+         {
+          "Id": "274692348"
+         },
+         {
+          "Id": "329082193"
+         },
+         {
+          "Id": "389573903"
+         },
+         {
+          "Id": "390832256"
+         },
+         {
+          "Id": "532475260"
+         },
+         {
+          "Id": "544230789"
+         },
+         {
+          "Id": "612671681"
+         },
+         {
+          "Id": "651538001"
+         },
+         {
+          "Id": "864528647"
+         },
+         {
+          "Id": "868647681"
+         },
+         {
+          "Id": "881895933"
+         },
+         {
+          "Id": "888937146"
+         },
+         {
+          "Id": "985372436"
+         },
+         {
+          "Id": "1014078281"
+         },
+         {
+          "Id": "1045747163"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "3826569560",
+         "Id": "1071673695",
+         "GUID": "{FFC1E3DF-519A-413E-8BE4-55F602C7A9D3}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "709800815"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "3826569560",
+         "Id": "2804304819",
+         "GUID": "{50BEE16E-60A6-4984-A678-9A2D0DD50074}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "1048768466"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "3826569560",
+         "Id": "1686739444",
+         "GUID": "{F6728A0D-69A8-4A13-9739-A0E19FB80B4D}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "539599525"
+         }
+        ]
+       }
+      ],
+      "ActionSetState": [
+       {
+        "GroupId": "3826569560",
+        "Id": "2607556080",
+        "Name": "Menu",
+        "ObjectPath": "\\States\\Music\\Music_State\\Menu",
+        "GUID": "{055FE003-CAC4-44B3-B569-20A00344FDD5}"
+       }
+      ]
+     },
+     {
       "Id": "579163286",
       "Name": "narr_001",
       "ObjectPath": "\\Events\\Fay\\narr_001",
@@ -66,6 +531,71 @@
       "MediaRefs": [
        {
         "Id": "389099927"
+       }
+      ]
+     },
+     {
+      "Id": "1686739444",
+      "Name": "Story",
+      "ObjectPath": "\\Events\\Anastasija\\Story",
+      "GUID": "{F012664D-31DB-4F0C-A40C-E69A18780A58}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0",
+      "ActionSetState": [
+       {
+        "GroupId": "3826569560",
+        "Id": "1686739444",
+        "Name": "Story",
+        "ObjectPath": "\\States\\Music\\Music_State\\Story",
+        "GUID": "{F6728A0D-69A8-4A13-9739-A0E19FB80B4D}"
+       }
+      ]
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "3826569560",
+      "Name": "Music_State",
+      "ObjectPath": "\\States\\Music\\Music_State",
+      "GUID": "{EAEE4E1C-D653-4A74-8A67-1A4DA41CABDA}",
+      "States": [
+       {
+        "Id": "89505537",
+        "Name": "Gameplay",
+        "ObjectPath": "\\States\\Music\\Music_State\\Gameplay",
+        "GUID": "{B9C43B31-A35A-4BAC-A9CF-F00E6DE3DB70}"
+       },
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Music\\Music_State\\None",
+        "GUID": "{A482E414-3CA3-49C3-B69E-2E1AAF50976F}"
+       },
+       {
+        "Id": "1071673695",
+        "Name": "GoodEnding",
+        "ObjectPath": "\\States\\Music\\Music_State\\GoodEnding",
+        "GUID": "{FFC1E3DF-519A-413E-8BE4-55F602C7A9D3}"
+       },
+       {
+        "Id": "1686739444",
+        "Name": "Story",
+        "ObjectPath": "\\States\\Music\\Music_State\\Story",
+        "GUID": "{F6728A0D-69A8-4A13-9739-A0E19FB80B4D}"
+       },
+       {
+        "Id": "2607556080",
+        "Name": "Menu",
+        "ObjectPath": "\\States\\Music\\Music_State\\Menu",
+        "GUID": "{055FE003-CAC4-44B3-B569-20A00344FDD5}"
+       },
+       {
+        "Id": "2804304819",
+        "Name": "BadEnding",
+        "ObjectPath": "\\States\\Music\\Music_State\\BadEnding",
+        "GUID": "{50BEE16E-60A6-4984-A678-9A2D0DD50074}"
        }
       ]
      }
@@ -80,6 +610,6 @@
     ]
    }
   ],
-  "FileHash": "{ACA2C89C-A3BE-6641-9A0B-EA7BBA0E3D6C}"
+  "FileHash": "{13D76435-6821-5F60-F939-828EA1BD460B}"
  }
 }

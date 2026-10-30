@@ -19,6 +19,12 @@
 				</Event>
 				<Event Name="Music" ID="{D7C47F89-F621-4714-8710-9B236EA9B110}">
 					<ChildrenList>
+						<Action Name="" ID="{E8A886D8-E062-4816-82F9-86A095EB1A8D}" ShortID="597132821">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="3"/>
+							</PropertyList>
+							<ReferenceList/>
+						</Action>
 						<Action Name="" ID="{C76B138E-7F10-441E-A6A0-FE6E703DF566}" ShortID="845589008">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="22"/>

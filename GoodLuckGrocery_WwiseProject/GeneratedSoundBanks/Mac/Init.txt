@@ -18,16 +18,30 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 	4179668880	Master_Volume			\Default Work Unit\Master_Volume	
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
+	65539383	Menu-Sinigang			\Default Work Unit\Master Audio Bus\Music Audio Bus\Music\Menu-Sinigang	
 	493417818	Music Audio Bus			\Default Work Unit\Master Audio Bus\Music Audio Bus	
+	516365885	Intro-Story			\Default Work Unit\Master Audio Bus\Music Audio Bus\Music\Intro-Story	
+	651382872	Credits-Sinigang			\Default Work Unit\Master Audio Bus\Music Audio Bus\Music\Credits-Sinigang	
 	1752864040	Sting			\Default Work Unit\Master Audio Bus\Music Audio Bus\Sting	
+	1835489004	BadEnding-Nostalgie			\Default Work Unit\Master Audio Bus\Music Audio Bus\Music\BadEnding-Nostalgie	
 	2930807276	PA Audio Bus			\Default Work Unit\Master Audio Bus\PA Audio Bus	
+	3230938710	Gameplay-GLG			\Default Work Unit\Master Audio Bus\Music Audio Bus\Music\Gameplay-GLG	
 	3460846287	Dialogue Audio Bus			\Default Work Unit\Master Audio Bus\Dialogue Audio Bus	
+	3566394466	TransitionFills			\Default Work Unit\Master Audio Bus\Music Audio Bus\Music\TransitionFills	
+	3786707644	Gameplay-Sinigang			\Default Work Unit\Master Audio Bus\Music Audio Bus\Music\Gameplay-Sinigang	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 	3991942870	Music			\Default Work Unit\Master Audio Bus\Music Audio Bus\Music	
 	4084199202	SFX Audio Bus			\Default Work Unit\Master Audio Bus\SFX Audio Bus	
 
 Effect plug-ins	ID	Name	Type				Notes
+	74739985	Gain (Custom)	Wwise Gain			
 	205458614	Sting_Meter	Wwise Meter			
+	296758930	Gain (Custom)	Wwise Gain			
+	444739723	Gain (Custom)	Wwise Gain			
+	620489933	Gain (Custom)	Wwise Gain			
+	813753039	Gain (Custom)	Wwise Gain			
+	917226217	Gain (Custom)	Wwise Gain			
+	1038499363	Gain (Custom)	Wwise Gain			
 	1413777708	Music_Meter	Wwise Meter			
 
 Audio Devices	ID	Name	Type				Notes
